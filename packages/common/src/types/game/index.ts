@@ -26,6 +26,7 @@ export interface QuestionMedia {
 
 export interface Question {
   question: string
+  explanation?: string
   media?: QuestionMedia
   answers: string[]
   solutions: number[]

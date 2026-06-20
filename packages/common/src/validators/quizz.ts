@@ -10,6 +10,7 @@ export const questionMediaValidator = z.object({
 
 const questionValidator = z.object({
   question: z.string().min(1, "errors:quizz.questionEmpty"),
+  explanation: z.string().min(1).optional(),
   media: questionMediaValidator.optional(),
   answers: z
     .array(z.string().min(1, "errors:quizz.answerEmpty"))

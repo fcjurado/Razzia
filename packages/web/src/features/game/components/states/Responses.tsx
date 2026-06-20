@@ -15,7 +15,7 @@ interface Props {
 }
 
 const Responses = ({
-  data: { question, answers, responses, solutions },
+  data: { question, explanation, answers, responses, solutions },
 }: Props) => {
   const [percentages, setPercentages] = useState<Record<string, string>>({})
   const [isMusicPlaying, setIsMusicPlaying] = useState(false)
@@ -57,6 +57,12 @@ const Responses = ({
         <h2 className="text-center text-2xl font-bold text-white drop-shadow-lg md:text-4xl lg:text-5xl">
           {question}
         </h2>
+
+        {explanation && (
+          <p className="max-w-5xl rounded-2xl bg-black/35 px-5 py-3 text-center text-base font-semibold text-white/95 shadow-lg md:text-lg">
+            {explanation}
+          </p>
+        )}
 
         <div
           className={`mt-8 grid h-40 w-full max-w-3xl gap-4 px-2`}

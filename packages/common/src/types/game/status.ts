@@ -46,6 +46,7 @@ interface ManagerExtraStatus {
   SHOW_ROOM: { text: string; inviteCode?: string }
   SHOW_RESPONSES: {
     question: string
+    explanation?: string
     responses: Record<number, number>
     solutions: number[]
     answers: string[]
