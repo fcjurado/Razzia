@@ -59,9 +59,14 @@ const Responses = ({
         </h2>
 
         {explanation && (
-          <p className="max-w-5xl rounded-2xl bg-black/35 px-5 py-3 text-center text-base font-semibold text-white/95 shadow-lg md:text-lg">
-            {explanation}
-          </p>
+          <div className="mx-auto max-w-5xl rounded-3xl border border-white/20 bg-black/55 px-5 py-4 text-center shadow-2xl backdrop-blur-sm md:px-8 md:py-5">
+            <p className="text-xs font-black uppercase tracking-[0.25em] text-amber-200/90 md:text-sm">
+              Explicación
+            </p>
+            <p className="mt-2 text-base font-semibold leading-relaxed text-white md:text-xl">
+              {explanation}
+            </p>
+          </div>
         )}
 
         <div
