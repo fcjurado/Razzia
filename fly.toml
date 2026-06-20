@@ -1,0 +1,27 @@
+# Configuración de despliegue para Fly.io (https://fly.io)
+# Recomendado: WebSockets nativos y puerto fijo, encaja perfecto con Razzia.
+#
+# Pasos:
+#   1. Instala flyctl:  https://fly.io/docs/flyctl/install/
+#   2. fly auth login
+#   3. fly launch --copy-config --no-deploy   (acepta usar este fly.toml)
+#   4. fly deploy
+#
+# Cambia "app" por un nombre único tuyo antes de desplegar.
+
+app = "razzia-quiz"
+primary_region = "mad"           # Madrid (cámbialo si prefieres otra región)
+
+[build]
+  dockerfile = "Dockerfile.deploy"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"    # Se apaga al no haber tráfico (ahorra recursos)
+  auto_start_machines = true     # Se enciende solo en la siguiente visita
+  min_machines_running = 0
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

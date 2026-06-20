@@ -1,0 +1,17 @@
+# Blueprint de despliegue para Render (https://render.com)
+# Alternativa a Fly.io. Nota: en el plan free la app se "duerme" tras
+# ~15 min de inactividad y tarda unos segundos en despertar.
+#
+# Pasos:
+#   1. Sube este fork a un repositorio de GitHub.
+#   2. En Render: New > Blueprint > selecciona tu repo.
+#   3. Render detecta este render.yaml y crea el servicio automáticamente.
+
+services:
+  - type: web
+    name: razzia-quiz
+    runtime: docker
+    dockerfilePath: ./Dockerfile.deploy
+    plan: free
+    region: frankfurt              # La región free más cercana a España
+    autoDeploy: true

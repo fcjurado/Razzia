@@ -1,0 +1,14 @@
+# Imagen de despliegue para hosting gratuito (Fly.io, Render, Koyeb...).
+#
+# Parte de la imagen oficial publicada por el autor (que ya incluye nginx,
+# Node.js, el frontend compilado y el servidor de WebSockets) y solo le
+# añade TU configuración encima. Así no hay que recompilar nada.
+#
+# La app lee la configuración desde CONFIG_PATH=/app/config, valor que ya
+# viene definido en la imagen base (docker/supervisord.conf).
+FROM ralex91/razzia:latest
+
+# Copia tu carpeta config (game.json + config/quizz/*.json) dentro de la imagen.
+COPY config /app/config
+
+EXPOSE 3000
