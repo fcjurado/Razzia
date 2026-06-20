@@ -11,7 +11,7 @@ services:
   - type: web
     name: razzia-quiz
     runtime: docker
-    dockerfilePath: ./Dockerfile.deploy
+    dockerfilePath: ./Dockerfile
     plan: free
     region: frankfurt              # La región free más cercana a España
     autoDeploy: true
