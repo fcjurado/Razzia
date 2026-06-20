@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una base de datos?",
       "answers": [
+        "Un altavoz inalámbrico",
         "Un sistema para guardar y consultar datos organizados",
         "Un cable USB",
-        "Una pantalla rota",
-        "Un altavoz inalámbrico"
+        "Una pantalla rota"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,
@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es una vulnerabilidad de seguridad?",
       "answers": [
-        "Un fallo que puede permitir un ataque",
         "Una app de dibujo",
         "Un nombre de usuario",
-        "Una copia de seguridad"
+        "Una copia de seguridad",
+        "Un fallo que puede permitir un ataque"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 10,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué es una clave pública en criptografía?",
       "answers": [
+        "Un archivo de música",
         "Una clave que se puede compartir para cifrar o verificar",
         "La contraseña del Wi-Fi",
-        "Un tipo de ratón",
-        "Un archivo de música"
+        "Un tipo de ratón"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué es un modelo de inteligencia artificial?",
       "answers": [
-        "Un sistema entrenado con datos para realizar tareas",
         "Una maqueta de plástico",
         "Una pantalla táctil",
-        "Una licencia de código"
+        "Una licencia de código",
+        "Un sistema entrenado con datos para realizar tareas"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 10,

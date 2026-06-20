@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es JSON?",
       "answers": [
-        "Un formato de texto para intercambiar datos",
-        "Un robot humanoide",
         "Un editor de vídeo",
-        "Un tipo de pantalla"
+        "Un tipo de pantalla",
+        "Un formato de texto para intercambiar datos",
+        "Un robot humanoide"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué significa autenticarse?",
       "answers": [
-        "Demostrar quién eres para entrar",
         "Copiar un archivo",
         "Reiniciar un router",
-        "Diseñar un logo"
+        "Diseñar un logo",
+        "Demostrar quién eres para entrar"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 10,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué ventaja tiene el software de código abierto?",
       "answers": [
+        "No puede tener errores",
         "La comunidad puede estudiarlo y mejorarlo",
         "Siempre funciona sin electricidad",
-        "No necesita pruebas",
-        "No puede tener errores"
+        "No necesita pruebas"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,

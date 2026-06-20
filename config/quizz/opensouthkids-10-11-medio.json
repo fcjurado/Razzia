@@ -4,13 +4,13 @@
     {
       "question": "¿Qué hace Git?",
       "answers": [
+        "Bloquea el teclado",
         "Controla versiones de archivos y código",
         "Acelera el ventilador",
-        "Dibuja emojis",
-        "Bloquea el teclado"
+        "Dibuja emojis"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,
@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es una rama o branch en Git?",
       "answers": [
-        "Una línea de trabajo separada",
-        "Un cable de red",
         "Una contraseña temporal",
-        "Una imagen comprimida"
+        "Una imagen comprimida",
+        "Una línea de trabajo separada",
+        "Un cable de red"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué es una API?",
       "answers": [
-        "Una forma para que programas se comuniquen",
         "Un antivirus",
         "Una pantalla extra",
-        "Una tecla especial"
+        "Una tecla especial",
+        "Una forma para que programas se comuniquen"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 10,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué es un sensor de ultrasonidos en robótica?",
       "answers": [
-        "Un sensor para medir distancia",
-        "Un motor de ruedas",
         "Una batería",
-        "Un programa de dibujo"
+        "Un programa de dibujo",
+        "Un sensor para medir distancia",
+        "Un motor de ruedas"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,

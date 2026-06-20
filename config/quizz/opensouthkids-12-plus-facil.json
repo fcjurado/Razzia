@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es un navegador web?",
       "answers": [
-        "Un programa para visitar páginas web",
-        "Un cable submarino",
         "Una carpeta secreta",
-        "Un tipo de batería"
+        "Un tipo de batería",
+        "Un programa para visitar páginas web",
+        "Un cable submarino"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué es una licencia de software?",
       "answers": [
+        "Un cable de audio",
         "Las reglas para usar y compartir un programa",
         "Una pegatina del portátil",
-        "Una contraseña corta",
-        "Un cable de audio"
+        "Una contraseña corta"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué es un dato personal?",
       "answers": [
-        "Información que puede identificar a una persona",
-        "Un color cualquiera",
         "Una suma matemática",
-        "Un icono de carpeta"
+        "Un icono de carpeta",
+        "Información que puede identificar a una persona",
+        "Un color cualquiera"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué significa actualizar una app?",
       "answers": [
-        "Instalar una versión más nueva",
         "Cambiar el móvil de sitio",
         "Borrar internet",
-        "Subir el volumen"
+        "Subir el volumen",
+        "Instalar una versión más nueva"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 10,

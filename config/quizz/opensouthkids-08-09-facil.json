@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es programar?",
       "answers": [
+        "Hacer magia",
         "Dar instrucciones a una máquina",
         "Pintar una pared",
-        "Cerrar una ventana",
-        "Hacer magia"
+        "Cerrar una ventana"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 15,
@@ -19,13 +19,13 @@
     {
       "question": "¿Cuál es un ejemplo de dispositivo conectado a internet?",
       "answers": [
-        "Teléfono móvil",
-        "Piedra",
         "Cuchara",
-        "Calcetín"
+        "Calcetín",
+        "Teléfono móvil",
+        "Piedra"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 15,
       "time": 15,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué es un archivo?",
       "answers": [
-        "Información guardada con un nombre",
         "Una bombilla",
         "Una rueda",
-        "Un lápiz roto"
+        "Un lápiz roto",
+        "Información guardada con un nombre"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 15,
       "time": 15,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué significa Wi-Fi?",
       "answers": [
-        "Conexión inalámbrica a una red",
-        "Una marca de zapatillas",
         "Un dibujo animado",
-        "Un cable muy largo"
+        "Un cable muy largo",
+        "Conexión inalámbrica a una red",
+        "Una marca de zapatillas"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 15,
       "time": 15,

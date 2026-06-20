@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es un programa?",
       "answers": [
+        "Una mesa pequeña",
         "Una lista de instrucciones para un ordenador",
         "Una merienda",
-        "Un cable",
-        "Una mesa pequeña"
+        "Un cable"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 20,
       "time": 20,
@@ -19,13 +19,13 @@
     {
       "question": "¿Qué hace un sensor de luz?",
       "answers": [
-        "Detecta si hay mucha o poca luz",
-        "Cuenta chistes",
         "Imprime hojas",
-        "Carga una mochila"
+        "Carga una mochila",
+        "Detecta si hay mucha o poca luz",
+        "Cuenta chistes"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 20,
       "time": 20,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué significa repetir una instrucción muchas veces?",
       "answers": [
-        "Hacer un bucle",
         "Hacer un bocadillo",
         "Apagar internet",
-        "Cambiar de silla"
+        "Cambiar de silla",
+        "Hacer un bucle"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 20,
       "time": 20,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué hace un botón en una app?",
       "answers": [
-        "Lanza una acción al pulsarlo",
-        "Siempre canta",
         "Siempre borra todo",
-        "Se convierte en comida"
+        "Se convierte en comida",
+        "Lanza una acción al pulsarlo",
+        "Siempre canta"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 20,
       "time": 20,

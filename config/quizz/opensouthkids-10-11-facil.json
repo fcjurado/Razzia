@@ -19,13 +19,13 @@
     {
       "question": "¿Qué hace HTML en una página web?",
       "answers": [
-        "Define la estructura del contenido",
-        "Enfría el ordenador",
         "Crea contraseñas",
-        "Mueve el ratón"
+        "Mueve el ratón",
+        "Define la estructura del contenido",
+        "Enfría el ordenador"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué hace CSS en una página web?",
       "answers": [
-        "Da estilo: colores, tamaños y posiciones",
         "Guarda fotos en la nube",
         "Instala impresoras",
-        "Aumenta la batería"
+        "Aumenta la batería",
+        "Da estilo: colores, tamaños y posiciones"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 10,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué es una URL?",
       "answers": [
+        "Una carpeta vacía",
         "La dirección de una página o recurso en internet",
         "Un tipo de teclado",
-        "Una contraseña",
-        "Una carpeta vacía"
+        "Una contraseña"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,

@@ -4,13 +4,13 @@
     {
       "question": "¿Qué usamos para mover la flecha en la pantalla?",
       "answers": [
+        "Lámpara",
         "Ratón",
         "Tostadora",
-        "Mochila",
-        "Lámpara"
+        "Mochila"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 20,
       "time": 20,
@@ -19,13 +19,13 @@
     {
       "question": "¿Cuál de estos objetos sirve para escribir en un ordenador?",
       "answers": [
-        "Teclado",
         "Cepillo",
         "Plato",
-        "Zapato"
+        "Zapato",
+        "Teclado"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 20,
       "time": 20,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué icono suele servir para borrar algo?",
       "answers": [
+        "Pelota",
         "Papelera",
         "Corazón",
-        "Sol",
-        "Pelota"
+        "Sol"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 20,
       "time": 20,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué hacemos cuando pulsamos el botón de encendido?",
       "answers": [
-        "Encender el dispositivo",
         "Pintar la pantalla",
         "Llamar a una nube",
-        "Romper internet"
+        "Romper internet",
+        "Encender el dispositivo"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 20,
       "time": 20,

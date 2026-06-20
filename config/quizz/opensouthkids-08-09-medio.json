@@ -4,13 +4,13 @@
     {
       "question": "¿Qué hace un algoritmo?",
       "answers": [
+        "Esconde el teclado",
         "Ordena pasos para resolver un problema",
         "Carga una batería",
-        "Dibuja solo círculos",
-        "Esconde el teclado"
+        "Dibuja solo círculos"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 15,
@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es un error o bug en un programa?",
       "answers": [
-        "Algo que hace que no funcione como esperábamos",
         "Una pegatina",
         "Una contraseña fuerte",
-        "Un tipo de monitor"
+        "Un tipo de monitor",
+        "Algo que hace que no funcione como esperábamos"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 15,
       "time": 15,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué dato NO deberíamos compartir con desconocidos online?",
       "answers": [
+        "El nombre de un planeta",
         "Nuestra dirección de casa",
         "Nuestro color favorito",
-        "Una adivinanza",
-        "El nombre de un planeta"
+        "Una adivinanza"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 15,
@@ -64,13 +64,13 @@
     {
       "question": "¿Para qué sirve copiar y pegar?",
       "answers": [
-        "Para duplicar texto o contenido",
         "Para cargar el móvil",
         "Para abrir una puerta",
-        "Para apagar el router"
+        "Para apagar el router",
+        "Para duplicar texto o contenido"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 15,
       "time": 15,

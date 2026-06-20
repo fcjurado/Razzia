@@ -19,13 +19,13 @@
     {
       "question": "¿Qué hace una condición 'si... entonces'?",
       "answers": [
-        "Elige qué hacer según algo sea verdadero",
-        "Siempre repite para siempre",
         "Apaga el monitor",
-        "Cambia el idioma sola"
+        "Cambia el idioma sola",
+        "Elige qué hacer según algo sea verdadero",
+        "Siempre repite para siempre"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 15,
       "time": 15,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué es un servidor?",
       "answers": [
-        "Un ordenador que ofrece servicios a otros",
         "Una tecla del teclado",
         "Un altavoz pequeño",
-        "Un tipo de enchufe"
+        "Un tipo de enchufe",
+        "Un ordenador que ofrece servicios a otros"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 15,
       "time": 15,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué significa hacer una copia de seguridad?",
       "answers": [
+        "Quitar internet",
         "Guardar otra copia por si se pierde la original",
         "Borrar todos los archivos",
-        "Cambiar el fondo",
-        "Quitar internet"
+        "Cambiar el fondo"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 15,

@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una pantalla táctil?",
       "answers": [
-        "Una pantalla que responde al tocarla",
-        "Una pantalla que da calor",
         "Una pantalla de papel",
-        "Una pantalla invisible"
+        "Una pantalla invisible",
+        "Una pantalla que responde al tocarla",
+        "Una pantalla que da calor"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 20,
       "time": 20,
@@ -34,13 +34,13 @@
     {
       "question": "¿Qué parte de un ordenador muestra imágenes?",
       "answers": [
+        "Mesa",
         "Monitor",
         "Silla",
-        "Cable de agua",
-        "Mesa"
+        "Cable de agua"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 20,
       "time": 20,
@@ -49,13 +49,13 @@
     {
       "question": "¿Qué es internet?",
       "answers": [
-        "Una red que conecta muchos dispositivos",
-        "Un tipo de helado",
         "Una libreta",
-        "Un botón rojo"
+        "Un botón rojo",
+        "Una red que conecta muchos dispositivos",
+        "Un tipo de helado"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 20,
       "time": 20,
@@ -64,13 +64,13 @@
     {
       "question": "Si una app se queda bloqueada, ¿qué podemos probar primero?",
       "answers": [
-        "Cerrar y abrir de nuevo",
         "Gritarle",
         "Mojar el móvil",
-        "Tapar la pantalla"
+        "Tapar la pantalla",
+        "Cerrar y abrir de nuevo"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 20,
       "time": 20,
