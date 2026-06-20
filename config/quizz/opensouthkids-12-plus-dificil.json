@@ -1,0 +1,45 @@
+{
+  "subject": "OpenSouthKids +11 - Difícil",
+  "questions": [
+    {
+      "question": "¿Qué es una base de datos?",
+      "answers": ["Un sistema para guardar y consultar datos organizados", "Un cable USB", "Una pantalla rota", "Un altavoz inalámbrico"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Las bases de datos guardan información de forma estructurada para buscarla, ordenarla y actualizarla."
+    },
+    {
+      "question": "¿Qué es una vulnerabilidad de seguridad?",
+      "answers": ["Un fallo que puede permitir un ataque", "Una app de dibujo", "Un nombre de usuario", "Una copia de seguridad"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Las vulnerabilidades son debilidades. Se corrigen con buenas prácticas, revisiones y actualizaciones."
+    },
+    {
+      "question": "¿Qué hace Docker?",
+      "answers": ["Empaqueta apps con lo necesario para ejecutarlas", "Diseña iconos", "Cambia contraseñas", "Aumenta el brillo"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Docker usa contenedores para que una app se ejecute de forma parecida en distintos entornos."
+    },
+    {
+      "question": "¿Qué es una clave pública en criptografía?",
+      "answers": ["Una clave que se puede compartir para cifrar o verificar", "La contraseña del Wi-Fi", "Un tipo de ratón", "Un archivo de música"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "En criptografía asimétrica hay clave pública y privada. La privada se protege; la pública puede compartirse."
+    },
+    {
+      "question": "¿Qué es un modelo de inteligencia artificial?",
+      "answers": ["Un sistema entrenado con datos para realizar tareas", "Una maqueta de plástico", "Una pantalla táctil", "Una licencia de código"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Un modelo aprende patrones de datos para clasificar, predecir, generar texto o ayudar con tareas concretas."
+    }
+  ]
+}

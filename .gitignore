@@ -2,4 +2,4 @@
 .env
 .secrets
 release.json
-web2DEPLOY.md
+DEPLOY.md

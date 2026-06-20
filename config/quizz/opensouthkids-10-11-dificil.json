@@ -1,0 +1,45 @@
+{
+  "subject": "OpenSouthKids 10-11 - Difícil",
+  "questions": [
+    {
+      "question": "¿Qué es una función en programación?",
+      "answers": ["Un bloque de código reutilizable", "Un tipo de cable", "Una cuenta de correo", "Un botón del monitor"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Una función agrupa instrucciones con un nombre para poder usarlas varias veces."
+    },
+    {
+      "question": "¿Qué es un repositorio?",
+      "answers": ["Un lugar donde se guarda un proyecto y su historial", "Un antivirus", "Un archivo de música", "Un tipo de pantalla"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "En plataformas como GitHub, un repositorio guarda código, documentación e historial de cambios."
+    },
+    {
+      "question": "¿Qué significa cifrar información?",
+      "answers": ["Convertirla para que no se entienda sin una clave", "Hacerla más colorida", "Imprimirla dos veces", "Borrarla del teclado"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "El cifrado protege datos para que solo quien tenga la clave correcta pueda leerlos."
+    },
+    {
+      "question": "¿Qué es una placa tipo micro:bit o Arduino?",
+      "answers": ["Un pequeño ordenador para crear proyectos electrónicos", "Un altavoz gigante", "Una página web", "Una contraseña"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Estas placas permiten conectar sensores, luces y motores para construir inventos."
+    },
+    {
+      "question": "¿Qué es depurar un programa?",
+      "answers": ["Buscar y arreglar errores", "Cambiar el fondo de pantalla", "Cargar el móvil", "Compartir una foto"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Depurar es investigar qué falla, reproducir el problema y corregirlo paso a paso."
+    }
+  ]
+}

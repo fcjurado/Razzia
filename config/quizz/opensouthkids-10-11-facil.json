@@ -1,0 +1,45 @@
+{
+  "subject": "OpenSouthKids 10-11 - Fácil",
+  "questions": [
+    {
+      "question": "¿Qué lenguaje se usa mucho para crear páginas web interactivas?",
+      "answers": ["JavaScript", "PiedraScript", "Cable++", "TortillaLang"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "JavaScript permite que las páginas reaccionen a clics, formularios, juegos y datos en vivo."
+    },
+    {
+      "question": "¿Qué hace HTML en una página web?",
+      "answers": ["Define la estructura del contenido", "Enfría el ordenador", "Crea contraseñas", "Mueve el ratón"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "HTML organiza títulos, párrafos, imágenes, enlaces y otros elementos de una web."
+    },
+    {
+      "question": "¿Qué hace CSS en una página web?",
+      "answers": ["Da estilo: colores, tamaños y posiciones", "Guarda fotos en la nube", "Instala impresoras", "Aumenta la batería"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "CSS controla cómo se ve una web: colores, fuentes, espacios y diseño."
+    },
+    {
+      "question": "¿Qué es una URL?",
+      "answers": ["La dirección de una página o recurso en internet", "Un tipo de teclado", "Una contraseña", "Una carpeta vacía"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "La URL indica al navegador dónde encontrar una página, una imagen o un archivo."
+    },
+    {
+      "question": "¿Qué significa 'software libre'?",
+      "answers": ["Software que respeta libertades para usar, estudiar y compartir", "Software que siempre cuesta cero", "Software sin botones", "Software que solo funciona sin internet"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Software libre no significa necesariamente gratis: habla de libertades para las personas usuarias."
+    }
+  ]
+}

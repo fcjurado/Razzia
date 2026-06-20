@@ -1,0 +1,45 @@
+{
+  "subject": "OpenSouthKids 8-9 - Difícil",
+  "questions": [
+    {
+      "question": "¿Qué es una variable en programación?",
+      "answers": ["Un lugar donde guardar un dato", "Una pantalla táctil", "Un cable HDMI", "Una foto borrosa"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Una variable tiene un nombre y guarda información que el programa puede usar o cambiar."
+    },
+    {
+      "question": "¿Qué hace una condición 'si... entonces'?",
+      "answers": ["Elige qué hacer según algo sea verdadero", "Siempre repite para siempre", "Apaga el monitor", "Cambia el idioma sola"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Las condiciones permiten tomar decisiones: si pasa esto, haz una cosa; si no, otra."
+    },
+    {
+      "question": "¿Qué es un servidor?",
+      "answers": ["Un ordenador que ofrece servicios a otros", "Una tecla del teclado", "Un altavoz pequeño", "Un tipo de enchufe"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Muchas webs viven en servidores que responden cuando las visitamos desde el navegador."
+    },
+    {
+      "question": "¿Qué significa hacer una copia de seguridad?",
+      "answers": ["Guardar otra copia por si se pierde la original", "Borrar todos los archivos", "Cambiar el fondo", "Quitar internet"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Las copias de seguridad ayudan a recuperar fotos, trabajos o proyectos si algo falla."
+    },
+    {
+      "question": "¿Cuál es una buena práctica con contraseñas?",
+      "answers": ["Usar una contraseña larga y difícil de adivinar", "Usar siempre '123456'", "Escribirla en un cartel", "Compartirla en un chat público"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Las contraseñas largas y únicas son más difíciles de adivinar. Un gestor de contraseñas ayuda mucho."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subject": "OpenSouthKids +11 - Fácil",
+  "questions": [
+    {
+      "question": "¿Qué es un navegador web?",
+      "answers": ["Un programa para visitar páginas web", "Un cable submarino", "Una carpeta secreta", "Un tipo de batería"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Chrome, Firefox, Edge o Safari son navegadores: piden páginas a servidores y las muestran."
+    },
+    {
+      "question": "¿Qué es la nube en tecnología?",
+      "answers": ["Servicios y datos en servidores de internet", "Agua dentro del móvil", "Un fondo de pantalla", "Un tipo de teclado"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "La nube no es mágica: son ordenadores de otras empresas que guardan o procesan información."
+    },
+    {
+      "question": "¿Qué es una licencia de software?",
+      "answers": ["Las reglas para usar y compartir un programa", "Una pegatina del portátil", "Una contraseña corta", "Un cable de audio"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "La licencia explica qué podemos hacer con un software: usarlo, copiarlo, modificarlo o distribuirlo."
+    },
+    {
+      "question": "¿Qué es un dato personal?",
+      "answers": ["Información que puede identificar a una persona", "Un color cualquiera", "Una suma matemática", "Un icono de carpeta"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Nombre, dirección, teléfono o ubicación pueden identificar a alguien y deben protegerse."
+    },
+    {
+      "question": "¿Qué significa actualizar una app?",
+      "answers": ["Instalar una versión más nueva", "Cambiar el móvil de sitio", "Borrar internet", "Subir el volumen"],
+      "solutions": [0],
+      "cooldown": 10,
+      "time": 10,
+      "explanation": "Las actualizaciones pueden corregir errores, mejorar seguridad y añadir funciones."
+    }
+  ]
+}
