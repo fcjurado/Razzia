@@ -63,8 +63,13 @@ export const getGameConfig = (): GameConfig => {
 
   try {
     const config = fs.readFileSync(getPath("game.json"), "utf-8")
+    const parsed = JSON.parse(config) as GameConfig
 
-    return JSON.parse(config) as GameConfig
+    if (process.env.MANAGER_PASSWORD) {
+      parsed.managerPassword = process.env.MANAGER_PASSWORD
+    }
+
+    return parsed
   } catch (error) {
     console.error("Failed to read game config:", error)
   }
