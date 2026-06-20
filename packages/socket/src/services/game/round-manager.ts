@@ -54,7 +54,23 @@ export class RoundManager {
   private questionsHistory: QuestionResult[] = []
 
   constructor(opts: RoundManagerOptions) {
-    this.opts = opts
+    // Shuffle questions so each game uses a randomized order (non-destructive)
+    const shuffle = <T,>(arr: T[]) => {
+      const a = arr.slice()
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1))
+        ;[a[i], a[j]] = [a[j], a[i]]
+      }
+      return a
+    }
+
+    this.opts = {
+      ...opts,
+      quizz: {
+        ...opts.quizz,
+        questions: shuffle(opts.quizz.questions),
+      },
+    }
   }
 
   isStarted(): boolean {
