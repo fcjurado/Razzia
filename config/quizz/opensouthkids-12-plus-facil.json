@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué es un navegador web?",
-      "answers": ["Un programa para visitar páginas web", "Un cable submarino", "Una carpeta secreta", "Un tipo de batería"],
-      "solutions": [0],
+      "answers": [
+        "Un programa para visitar páginas web",
+        "Un cable submarino",
+        "Una carpeta secreta",
+        "Un tipo de batería"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "Chrome, Firefox, Edge o Safari son navegadores: piden páginas a servidores y las muestran."
+      "explanation": "El navegador es el programa con el que visitamos páginas de internet."
     },
     {
       "question": "¿Qué es la nube en tecnología?",
-      "answers": ["Servicios y datos en servidores de internet", "Agua dentro del móvil", "Un fondo de pantalla", "Un tipo de teclado"],
-      "solutions": [0],
+      "answers": [
+        "Servicios y datos en servidores de internet",
+        "Agua dentro del móvil",
+        "Un fondo de pantalla",
+        "Un tipo de teclado"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "La nube no es mágica: son ordenadores de otras empresas que guardan o procesan información."
+      "explanation": "La nube son ordenadores de internet donde guardamos o usamos cosas."
     },
     {
       "question": "¿Qué es una licencia de software?",
-      "answers": ["Las reglas para usar y compartir un programa", "Una pegatina del portátil", "Una contraseña corta", "Un cable de audio"],
-      "solutions": [0],
+      "answers": [
+        "Las reglas para usar y compartir un programa",
+        "Una pegatina del portátil",
+        "Una contraseña corta",
+        "Un cable de audio"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "La licencia explica qué podemos hacer con un software: usarlo, copiarlo, modificarlo o distribuirlo."
+      "explanation": "La licencia dice qué podemos hacer con un programa y qué no."
     },
     {
       "question": "¿Qué es un dato personal?",
-      "answers": ["Información que puede identificar a una persona", "Un color cualquiera", "Una suma matemática", "Un icono de carpeta"],
-      "solutions": [0],
+      "answers": [
+        "Información que puede identificar a una persona",
+        "Un color cualquiera",
+        "Una suma matemática",
+        "Un icono de carpeta"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "Nombre, dirección, teléfono o ubicación pueden identificar a alguien y deben protegerse."
+      "explanation": "Un dato personal puede decir quién eres o dónde vives."
     },
     {
       "question": "¿Qué significa actualizar una app?",
-      "answers": ["Instalar una versión más nueva", "Cambiar el móvil de sitio", "Borrar internet", "Subir el volumen"],
-      "solutions": [0],
+      "answers": [
+        "Instalar una versión más nueva",
+        "Cambiar el móvil de sitio",
+        "Borrar internet",
+        "Subir el volumen"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "Las actualizaciones pueden corregir errores, mejorar seguridad y añadir funciones."
+      "explanation": "Actualizar mejora la app y corrige errores."
     }
   ]
 }

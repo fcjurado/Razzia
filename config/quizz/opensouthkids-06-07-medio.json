@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué es una pantalla táctil?",
-      "answers": ["Una pantalla que responde al tocarla", "Una pantalla que da calor", "Una pantalla de papel", "Una pantalla invisible"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Las pantallas táctiles detectan nuestros dedos para tocar botones, dibujar o mover cosas."
+      "answers": [
+        "Una pantalla que responde al tocarla",
+        "Una pantalla que da calor",
+        "Una pantalla de papel",
+        "Una pantalla invisible"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Una pantalla táctil responde cuando la tocamos con el dedo."
     },
     {
       "question": "¿Qué significa guardar un dibujo en el ordenador?",
-      "answers": ["Dejarlo guardado para verlo después", "Borrarlo para siempre", "Hacerlo más pesado", "Apagar la luz"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Guardar crea o actualiza un archivo para que no perdamos nuestro trabajo."
+      "answers": [
+        "Dejarlo guardado para verlo después",
+        "Borrarlo para siempre",
+        "Hacerlo más pesado",
+        "Apagar la luz"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Guardar sirve para no perder lo que hemos hecho y poder verlo después."
     },
     {
       "question": "¿Qué parte de un ordenador muestra imágenes?",
-      "answers": ["Monitor", "Silla", "Cable de agua", "Mesa"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "El monitor o pantalla nos enseña textos, dibujos, juegos y vídeos."
+      "answers": [
+        "Monitor",
+        "Silla",
+        "Cable de agua",
+        "Mesa"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "El monitor enseña lo que hacen las apps, los juegos y los dibujos."
     },
     {
       "question": "¿Qué es internet?",
-      "answers": ["Una red que conecta muchos dispositivos", "Un tipo de helado", "Una libreta", "Un botón rojo"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Internet conecta ordenadores, móviles y servidores para compartir información."
+      "answers": [
+        "Una red que conecta muchos dispositivos",
+        "Un tipo de helado",
+        "Una libreta",
+        "Un botón rojo"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Internet conecta muchos dispositivos para compartir información."
     },
     {
       "question": "Si una app se queda bloqueada, ¿qué podemos probar primero?",
-      "answers": ["Cerrar y abrir de nuevo", "Gritarle", "Mojar el móvil", "Tapar la pantalla"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Reiniciar una app a veces limpia el problema y permite empezar de nuevo."
+      "answers": [
+        "Cerrar y abrir de nuevo",
+        "Gritarle",
+        "Mojar el móvil",
+        "Tapar la pantalla"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Cerrar y abrir otra vez suele arreglar muchos fallos pequeños."
     }
   ]
 }

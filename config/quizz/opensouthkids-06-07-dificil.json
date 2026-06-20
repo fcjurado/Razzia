@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué es un programa?",
-      "answers": ["Una lista de instrucciones para un ordenador", "Una merienda", "Un cable", "Una mesa pequeña"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Un programa dice al ordenador qué pasos debe seguir para hacer una tarea."
+      "answers": [
+        "Una lista de instrucciones para un ordenador",
+        "Una merienda",
+        "Un cable",
+        "Una mesa pequeña"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Un programa es una lista de instrucciones para que el ordenador haga una tarea."
     },
     {
       "question": "¿Qué hace un sensor de luz?",
-      "answers": ["Detecta si hay mucha o poca luz", "Cuenta chistes", "Imprime hojas", "Carga una mochila"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Los sensores ayudan a las máquinas a notar cosas del mundo, como luz, sonido o movimiento."
+      "answers": [
+        "Detecta si hay mucha o poca luz",
+        "Cuenta chistes",
+        "Imprime hojas",
+        "Carga una mochila"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Un sensor nota la luz y ayuda a la máquina a entender su entorno."
     },
     {
       "question": "¿Qué significa repetir una instrucción muchas veces?",
-      "answers": ["Hacer un bucle", "Hacer un bocadillo", "Apagar internet", "Cambiar de silla"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Un bucle repite pasos. Es muy útil para no escribir la misma orden muchas veces."
+      "answers": [
+        "Hacer un bucle",
+        "Hacer un bocadillo",
+        "Apagar internet",
+        "Cambiar de silla"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Un bucle repite pasos para no escribir lo mismo una y otra vez."
     },
     {
       "question": "¿Qué es una contraseña?",
-      "answers": ["Una palabra secreta para entrar", "Un dibujo de colores", "Un altavoz", "Un botón de volumen"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Una contraseña protege cuentas y dispositivos. No debe compartirse con desconocidos."
+      "answers": [
+        "Una palabra secreta para entrar",
+        "Un dibujo de colores",
+        "Un altavoz",
+        "Un botón de volumen"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "La contraseña protege una cuenta, como una llave secreta."
     },
     {
       "question": "¿Qué hace un botón en una app?",
-      "answers": ["Lanza una acción al pulsarlo", "Siempre canta", "Siempre borra todo", "Se convierte en comida"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Los botones son controles: al tocarlos, la app ejecuta una acción concreta."
+      "answers": [
+        "Lanza una acción al pulsarlo",
+        "Siempre canta",
+        "Siempre borra todo",
+        "Se convierte en comida"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Un botón activa una acción cuando lo pulsamos."
     }
   ]
 }

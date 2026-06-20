@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué hace un algoritmo?",
-      "answers": ["Ordena pasos para resolver un problema", "Carga una batería", "Dibuja solo círculos", "Esconde el teclado"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Un algoritmo es una receta de pasos. Puede ser para cocinar, jugar o programar."
+      "answers": [
+        "Ordena pasos para resolver un problema",
+        "Carga una batería",
+        "Dibuja solo círculos",
+        "Esconde el teclado"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Un algoritmo es una receta de pasos para resolver un problema."
     },
     {
       "question": "¿Qué es un error o bug en un programa?",
-      "answers": ["Algo que hace que no funcione como esperábamos", "Una pegatina", "Una contraseña fuerte", "Un tipo de monitor"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Los bugs son fallos. Arreglarlos se llama depurar o debuggear."
+      "answers": [
+        "Algo que hace que no funcione como esperábamos",
+        "Una pegatina",
+        "Una contraseña fuerte",
+        "Un tipo de monitor"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Un bug es un fallo que hace que algo no funcione como esperábamos."
     },
     {
       "question": "¿Qué significa código abierto?",
-      "answers": ["Que podemos ver cómo está hecho el programa", "Que el ordenador está sin tapa", "Que la pantalla está rota", "Que no tiene iconos"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "El software de código abierto permite estudiar, compartir y mejorar el código."
+      "answers": [
+        "Que podemos ver cómo está hecho el programa",
+        "Que el ordenador está sin tapa",
+        "Que la pantalla está rota",
+        "Que no tiene iconos"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Código abierto quiere decir que podemos ver cómo está hecho el programa."
     },
     {
       "question": "¿Qué dato NO deberíamos compartir con desconocidos online?",
-      "answers": ["Nuestra dirección de casa", "Nuestro color favorito", "Una adivinanza", "El nombre de un planeta"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Los datos personales pueden identificar dónde vivimos o quiénes somos. Hay que protegerlos."
+      "answers": [
+        "Nuestra dirección de casa",
+        "Nuestro color favorito",
+        "Una adivinanza",
+        "El nombre de un planeta"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "La dirección de casa es un dato personal y hay que protegerlo."
     },
     {
       "question": "¿Para qué sirve copiar y pegar?",
-      "answers": ["Para duplicar texto o contenido", "Para cargar el móvil", "Para abrir una puerta", "Para apagar el router"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Copiar guarda una copia temporal y pegar la coloca en otro lugar."
+      "answers": [
+        "Para duplicar texto o contenido",
+        "Para cargar el móvil",
+        "Para abrir una puerta",
+        "Para apagar el router"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Copiar y pegar ayuda a mover o repetir texto sin escribirlo otra vez."
     }
   ]
 }

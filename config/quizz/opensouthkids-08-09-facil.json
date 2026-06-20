@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué es programar?",
-      "answers": ["Dar instrucciones a una máquina", "Pintar una pared", "Cerrar una ventana", "Hacer magia"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Programar es explicar a una máquina los pasos que tiene que seguir para resolver algo."
+      "answers": [
+        "Dar instrucciones a una máquina",
+        "Pintar una pared",
+        "Cerrar una ventana",
+        "Hacer magia"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Programar es explicar a una máquina qué queremos que haga."
     },
     {
       "question": "¿Cuál es un ejemplo de dispositivo conectado a internet?",
-      "answers": ["Teléfono móvil", "Piedra", "Cuchara", "Calcetín"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Un móvil puede conectarse a internet para enviar mensajes, ver webs o jugar online."
+      "answers": [
+        "Teléfono móvil",
+        "Piedra",
+        "Cuchara",
+        "Calcetín"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Un móvil puede conectarse a internet para hablar, aprender y jugar."
     },
     {
       "question": "¿Qué es un archivo?",
-      "answers": ["Información guardada con un nombre", "Una bombilla", "Una rueda", "Un lápiz roto"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Un archivo puede guardar texto, imágenes, música, vídeos o datos de un programa."
+      "answers": [
+        "Información guardada con un nombre",
+        "Una bombilla",
+        "Una rueda",
+        "Un lápiz roto"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Un archivo guarda información: texto, fotos, vídeos o dibujos."
     },
     {
       "question": "¿Qué debemos hacer antes de instalar una app desconocida?",
-      "answers": ["Preguntar a una persona adulta", "Instalarla corriendo", "Dar todas las contraseñas", "Apagar la casa"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Pedir ayuda evita instalar apps peligrosas o dar permisos que no entendemos."
+      "answers": [
+        "Preguntar a una persona adulta",
+        "Instalarla corriendo",
+        "Dar todas las contraseñas",
+        "Apagar la casa"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Es mejor pedir ayuda a una persona adulta antes de instalar nada raro."
     },
     {
       "question": "¿Qué significa Wi-Fi?",
-      "answers": ["Conexión inalámbrica a una red", "Una marca de zapatillas", "Un dibujo animado", "Un cable muy largo"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "El Wi-Fi permite conectarse a una red sin usar un cable de red."
+      "answers": [
+        "Conexión inalámbrica a una red",
+        "Una marca de zapatillas",
+        "Un dibujo animado",
+        "Un cable muy largo"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "El Wi‑Fi deja conectar a internet sin usar un cable."
     }
   ]
 }

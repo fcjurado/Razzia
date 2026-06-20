@@ -3,40 +3,75 @@
   "questions": [
     {
       "question": "¿Qué hace Git?",
-      "answers": ["Controla versiones de archivos y código", "Acelera el ventilador", "Dibuja emojis", "Bloquea el teclado"],
-      "solutions": [0],
+      "answers": [
+        "Controla versiones de archivos y código",
+        "Acelera el ventilador",
+        "Dibuja emojis",
+        "Bloquea el teclado"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
       "explanation": "Git guarda cambios, permite volver atrás y ayuda a trabajar en equipo sin pisarse."
     },
     {
       "question": "¿Qué es una rama o branch en Git?",
-      "answers": ["Una línea de trabajo separada", "Un cable de red", "Una contraseña temporal", "Una imagen comprimida"],
-      "solutions": [0],
+      "answers": [
+        "Una línea de trabajo separada",
+        "Un cable de red",
+        "Una contraseña temporal",
+        "Una imagen comprimida"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
       "explanation": "Una rama permite probar cambios sin tocar directamente la versión principal del proyecto."
     },
     {
       "question": "¿Qué es una API?",
-      "answers": ["Una forma para que programas se comuniquen", "Un antivirus", "Una pantalla extra", "Una tecla especial"],
-      "solutions": [0],
+      "answers": [
+        "Una forma para que programas se comuniquen",
+        "Un antivirus",
+        "Una pantalla extra",
+        "Una tecla especial"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
       "explanation": "Una API define cómo pedir o enviar datos entre programas, apps o servicios."
     },
     {
       "question": "¿Qué es el phishing?",
-      "answers": ["Un engaño para robar datos o contraseñas", "Un lenguaje de programación", "Una impresora 3D", "Un tipo de pantalla"],
-      "solutions": [0],
+      "answers": [
+        "Un engaño para robar datos o contraseñas",
+        "Un lenguaje de programación",
+        "Una impresora 3D",
+        "Un tipo de pantalla"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
       "explanation": "El phishing intenta parecer legítimo para que entreguemos datos. Hay que revisar enlaces y remitentes."
     },
     {
       "question": "¿Qué es un sensor de ultrasonidos en robótica?",
-      "answers": ["Un sensor para medir distancia", "Un motor de ruedas", "Una batería", "Un programa de dibujo"],
-      "solutions": [0],
+      "answers": [
+        "Un sensor para medir distancia",
+        "Un motor de ruedas",
+        "Una batería",
+        "Un programa de dibujo"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
       "explanation": "Envía sonido que no oímos y mide cuánto tarda en volver para calcular distancias."

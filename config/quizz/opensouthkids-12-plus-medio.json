@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué es una petición HTTP?",
-      "answers": ["Un mensaje del navegador a un servidor", "Una pieza de Lego", "Una contraseña", "Un disco duro"],
-      "solutions": [0],
+      "answers": [
+        "Un mensaje del navegador a un servidor",
+        "Una pieza de Lego",
+        "Una contraseña",
+        "Un disco duro"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "Cuando visitas una web, el navegador envía peticiones HTTP para pedir páginas, datos o imágenes."
+      "explanation": "Es el mensaje que envía el navegador para pedir una web al servidor."
     },
     {
       "question": "¿Qué es JSON?",
-      "answers": ["Un formato de texto para intercambiar datos", "Un robot humanoide", "Un editor de vídeo", "Un tipo de pantalla"],
-      "solutions": [0],
+      "answers": [
+        "Un formato de texto para intercambiar datos",
+        "Un robot humanoide",
+        "Un editor de vídeo",
+        "Un tipo de pantalla"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "JSON organiza datos con claves y valores. Muchas APIs lo usan porque es fácil de leer por programas."
+      "explanation": "JSON es un formato sencillo para guardar y compartir datos."
     },
     {
       "question": "¿Qué significa autenticarse?",
-      "answers": ["Demostrar quién eres para entrar", "Copiar un archivo", "Reiniciar un router", "Diseñar un logo"],
-      "solutions": [0],
+      "answers": [
+        "Demostrar quién eres para entrar",
+        "Copiar un archivo",
+        "Reiniciar un router",
+        "Diseñar un logo"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "Autenticarse suele usar contraseña, código, huella u otro método para verificar identidad."
+      "explanation": "Autenticarse es demostrar quién eres para poder entrar."
     },
     {
       "question": "¿Qué ventaja tiene el software de código abierto?",
-      "answers": ["La comunidad puede estudiarlo y mejorarlo", "Siempre funciona sin electricidad", "No necesita pruebas", "No puede tener errores"],
-      "solutions": [0],
+      "answers": [
+        "La comunidad puede estudiarlo y mejorarlo",
+        "Siempre funciona sin electricidad",
+        "No necesita pruebas",
+        "No puede tener errores"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "La transparencia permite aprender, auditar y colaborar, aunque el software abierto también necesita mantenimiento."
+      "explanation": "El software abierto se puede estudiar y mejorar entre muchas personas."
     },
     {
       "question": "¿Qué es una dirección IP?",
-      "answers": ["Un identificador de un dispositivo en una red", "Una imagen PNG", "Una licencia de software", "Una tecla de función"],
-      "solutions": [0],
+      "answers": [
+        "Un identificador de un dispositivo en una red",
+        "Una imagen PNG",
+        "Una licencia de software",
+        "Una tecla de función"
+      ],
+      "solutions": [
+        0
+      ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "Las IP ayudan a que los datos encuentren origen y destino dentro de una red."
+      "explanation": "La IP identifica a un dispositivo dentro de una red."
     }
   ]
 }

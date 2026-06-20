@@ -3,43 +3,78 @@
   "questions": [
     {
       "question": "¿Qué usamos para mover la flecha en la pantalla?",
-      "answers": ["Ratón", "Tostadora", "Mochila", "Lámpara"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "El ratón mueve el puntero para elegir, dibujar o abrir cosas en el ordenador."
+      "answers": [
+        "Ratón",
+        "Tostadora",
+        "Mochila",
+        "Lámpara"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "El ratón mueve el puntero y nos ayuda a elegir cosas en el ordenador."
     },
     {
       "question": "¿Cuál de estos objetos sirve para escribir en un ordenador?",
-      "answers": ["Teclado", "Cepillo", "Plato", "Zapato"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "El teclado tiene letras, números y teclas especiales para escribir instrucciones y mensajes."
+      "answers": [
+        "Teclado",
+        "Cepillo",
+        "Plato",
+        "Zapato"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "El teclado tiene letras y números para escribir mensajes y respuestas."
     },
     {
       "question": "¿Qué necesita un robot para saber qué hacer?",
-      "answers": ["Instrucciones", "Caramelos", "Sueño", "Zapatos"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "Un robot sigue instrucciones. Programar es escribir esas instrucciones con mucho cuidado."
+      "answers": [
+        "Instrucciones",
+        "Caramelos",
+        "Sueño",
+        "Zapatos"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Un robot sigue instrucciones: eso es programar."
     },
     {
       "question": "¿Qué icono suele servir para borrar algo?",
-      "answers": ["Papelera", "Corazón", "Sol", "Pelota"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "La papelera representa borrar o quitar algo, igual que tiramos papeles a una papelera real."
+      "answers": [
+        "Papelera",
+        "Corazón",
+        "Sol",
+        "Pelota"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "La papelera significa borrar o quitar algo que ya no queremos."
     },
     {
       "question": "¿Qué hacemos cuando pulsamos el botón de encendido?",
-      "answers": ["Encender el dispositivo", "Pintar la pantalla", "Llamar a una nube", "Romper internet"],
-      "solutions": [0],
-      "cooldown": 10,
-      "time": 10,
-      "explanation": "El botón de encendido da energía al dispositivo para que pueda empezar a funcionar."
+      "answers": [
+        "Encender el dispositivo",
+        "Pintar la pantalla",
+        "Llamar a una nube",
+        "Romper internet"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Al encenderlo, el dispositivo empieza a funcionar y a cargar sus programas."
     }
   ]
 }
