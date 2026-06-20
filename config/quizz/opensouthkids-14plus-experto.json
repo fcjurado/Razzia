@@ -1,0 +1,50 @@
+{
+  "subject": "OpenSouthKids 14+ - Experto",
+  "questions": [
+    {
+      "question": "¿Qué es la programación orientada a objetos (POO)?",
+      "answers": [
+        "Una forma de organizar el código usando objetos que tienen propiedades y comportamientos",
+        "Un tipo de lápiz virtual",
+        "Una manera de dibujar en pantalla",
+        "Un protocolo de red"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 25,
+      "explanation": "En POO el código se organiza en 'objetos' que agrupan datos y funciones, lo que facilita modelar cosas del mundo real."
+    },
+    {
+      "question": "¿Qué significa 'open source'?",
+      "answers": [
+        "Que el código fuente es accesible para ser estudiado, modificado y distribuido",
+        "Que es un programa que siempre cuesta dinero",
+        "Que solo se puede usar en la escuela",
+        "Que es más lento"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "El software 'open source' permite a cualquier persona ver y colaborar en el código, fomentando aprendizaje y mejoras compartidas."
+    },
+    {
+      "question": "¿Qué es la latencia en redes?",
+      "answers": [
+        "El retraso en la transmisión de datos entre un punto y otro",
+        "Una forma de almacenar archivos",
+        "Un programa para dibujar",
+        "Un tipo de batería"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "La latencia es el tiempo que tarda un paquete en viajar desde el emisor al receptor; baja latencia mejora la experiencia en juegos y videollamadas."
+    }
+  ]
+}

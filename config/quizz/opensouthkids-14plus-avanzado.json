@@ -1,0 +1,50 @@
+{
+  "subject": "OpenSouthKids 14+ - Avanzado",
+  "questions": [
+    {
+      "question": "¿Qué es un algoritmo?",
+      "answers": [
+        "Una receta o conjunto de pasos para resolver un problema",
+        "Un tipo de ordenador",
+        "Un virus informático",
+        "Un cable especial"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Un algoritmo es una serie de pasos ordenados para resolver una tarea, como una receta de cocina aplicada a la programación."
+    },
+    {
+      "question": "¿Cuál es la diferencia principal entre 'datos' y 'información'?",
+      "answers": [
+        "No hay diferencia",
+        "Los datos son hechos sin procesar; la información es el resultado interpretado",
+        "La información ocupa más espacio en disco",
+        "Los datos siempre son números"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Los datos son hechos o valores sin contexto; cuando se organizan o interpretan se convierten en información útil."
+    },
+    {
+      "question": "¿Qué es la ciberseguridad?",
+      "answers": [
+        "La ciencia de cocinar en la nube",
+        "El conjunto de medidas para proteger sistemas y datos",
+        "Un juego online",
+        "Un tipo de teléfono"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "La ciberseguridad busca proteger la confidencialidad, integridad y disponibilidad de la información y los sistemas."
+    }
+  ]
+}

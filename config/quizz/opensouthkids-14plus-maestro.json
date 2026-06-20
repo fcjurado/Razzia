@@ -1,0 +1,50 @@
+{
+  "subject": "OpenSouthKids 14+ - Maestro",
+  "questions": [
+    {
+      "question": "¿Qué es el machine learning (aprendizaje automático)?",
+      "answers": [
+        "Un conjunto de técnicas que permiten a las máquinas aprender de datos",
+        "Una nueva consola de videojuegos",
+        "Una forma de pintar con el ratón",
+        "Un tipo de cable"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 30,
+      "explanation": "El machine learning usa datos y algoritmos para que las máquinas mejoren en tareas sin ser programadas paso a paso para cada caso."
+    },
+    {
+      "question": "¿Qué es la ética digital?",
+      "answers": [
+        "El estudio de principios morales aplicados al uso de la tecnología y los datos",
+        "Una aplicación para editar fotos",
+        "Un tipo de contraseña",
+        "Un protocolo de vídeo"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "La ética digital trata temas como privacidad, sesgo en algoritmos y uso responsable de la tecnología."
+    },
+    {
+      "question": "¿Por qué es importante verificar fuentes en internet?",
+      "answers": [
+        "Para asegurarnos de que la información es veraz y evitar desinformación",
+        "Porque internet borra las páginas cada hora",
+        "Porque así cargan más rápido las imágenes",
+        "Porque es obligatorio"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Verificar fuentes ayuda a distinguir hechos de rumores y protege contra noticias falsas o manipuladas."
+    }
+  ]
+}
