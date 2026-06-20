@@ -1,0 +1,12 @@
+{
+  "subject": "Example Quiz",
+  "questions": [
+    {
+      "question": "What is the correct answer?",
+      "answers": ["No", "Yes", "No", "No"],
+      "solutions": [1],
+      "cooldown": 5,
+      "time": 15
+    }
+  ]
+}
