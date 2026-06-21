@@ -1,0 +1,80 @@
+{
+  "subject": "OpenSouthKids - Medio",
+  "questions": [
+    {
+      "question": "En el taller 'Hackea el Zombie', ¿qué motor de videojuegos se usa para modificar el juego?",
+      "answers": [
+        "Scratch",
+        "Unity",
+        "Unreal Engine",
+        "Godot"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "El juego está programado en Godot, un motor open source. Los participantes cambian colores, sonidos y velocidad sin tocar código."
+    },
+    {
+      "question": "En el taller YesWeTech 'Detective digital', ¿qué código usa puntos y rayas para representar letras?",
+      "answers": [
+        "Lenguaje binario",
+        "Código ASCII",
+        "Cifrado César",
+        "Código Morse"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "El código Morse usa combinaciones de puntos (·) y rayas (−) para representar cada letra o número."
+    },
+    {
+      "question": "¿Qué actividad consiste en crear un cómic colaborativo usando inteligencia artificial?",
+      "answers": [
+        "Mural digital",
+        "ComicIA - Elige tu aventura",
+        "Anima tu dibujo",
+        "Magnific workflow"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "En ComicIA, cada niño añade una viñeta generada con IA al cómic colaborativo, y se publica al completarlo."
+    },
+    {
+      "question": "En el taller de Micro:bit Luces, ¿qué dispositivo programas para encender LEDs?",
+      "answers": [
+        "Un teléfono móvil",
+        "Una tablet",
+        "Una placa Micro:bit",
+        "Un portátil"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "Micro:bit es una pequeña placa programable con LEDs incorporados, diseñada para aprender a programar."
+    },
+    {
+      "question": "¿Qué actividad usa la herramienta TinkerCAD?",
+      "answers": [
+        "Desenchufao",
+        "Ada Kraft",
+        "TinkerCAD 3D",
+        "NFC Cinexin"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 15,
+      "time": 15,
+      "explanation": "TinkerCAD es una aplicación web para diseñar modelos 3D que luego se pueden imprimir en una impresora 3D."
+    }
+  ]
+}

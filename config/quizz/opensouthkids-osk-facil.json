@@ -1,0 +1,80 @@
+{
+  "subject": "OpenSouthKids - Fácil",
+  "questions": [
+    {
+      "question": "En el taller 'Si fueras un Octogato', ¿qué animal es el personaje que diseñas?",
+      "answers": [
+        "Un perro",
+        "Un gato con tentáculos",
+        "Un dragón",
+        "Un robot"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "El Octogato es un gato con tentáculos de pulpo, la mascota de GitHub. En el taller diseñas tu propia versión."
+    },
+    {
+      "question": "En el taller de Makey Makey Dance Dance, ¿qué usas para crear un circuito sobre papel?",
+      "answers": [
+        "Pegamento de purpurina",
+        "Pintura de dedos",
+        "Cinta de cobre y materiales conductores",
+        "Rotuladores de colores"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Makey Makey usa materiales conductores como cinta de cobre para crear circuitos que el ordenador puede detectar."
+    },
+    {
+      "question": "¿Qué actividad consiste en dibujar en una tablet para crear un mural entre todos?",
+      "answers": [
+        "Mural digital",
+        "TinkerCAD 3D",
+        "Ada Kraft",
+        "ComicIA"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "En el Mural digital, cada niño dibuja en una tablet y su aportación se une a las demás para crear una obra colectiva."
+    },
+    {
+      "question": "En el taller YesWeTech de LEDs, ¿qué material usas para que un dibujo se ilumine?",
+      "answers": [
+        "Pintura fluorescente",
+        "Imanes",
+        "Agua con colorante",
+        "Pilas y luces LED"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "Con pilas, LEDs y materiales sencillos sobre papel, puedes crear un circuito que ilumine tu dibujo."
+    },
+    {
+      "question": "¿Qué actividad usa la web myoctocat.com?",
+      "answers": [
+        "Hackea el Zombie",
+        "Si fueras un Octogato",
+        "Aprende Git",
+        "Micro:bit Luces"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 20,
+      "time": 20,
+      "explanation": "La web myoctocat.com permite diseñar tu propio Octogato, el personaje gato-pulpo de GitHub."
+    }
+  ]
+}

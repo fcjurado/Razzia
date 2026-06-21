@@ -1,0 +1,80 @@
+{
+  "subject": "OpenSouthKids - Experto",
+  "questions": [
+    {
+      "question": "En el taller 'Detective digital' de YesWeTech, ¿qué técnica de cifrado desplaza las letras un número fijo de posiciones?",
+      "answers": [
+        "Cifrado César",
+        "Lenguaje binario",
+        "Esteganografía",
+        "Código Morse"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "El cifrado César sustituye cada letra por otra que está un número fijo de posiciones más adelante en el alfabeto. Lo usaba Julio César para sus mensajes secretos."
+    },
+    {
+      "question": "En 'Hackea el Zombie', ¿qué tipo de archivo modificarías para cambiar la velocidad de los zombis sin tocar código?",
+      "answers": [
+        "Un archivo de imagen PNG",
+        "Un archivo de configuración JSON o de texto",
+        "Un archivo de audio MP3",
+        "Un archivo ejecutable EXE"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Los archivos de configuración (como JSON) almacenan valores como velocidad o vida que puedes cambiar sin modificar el código del juego."
+    },
+    {
+      "question": "En el taller 'Magnific workflow', ¿qué es un 'prompt' en el contexto de la IA generativa?",
+      "answers": [
+        "Un formato de vídeo",
+        "Un tipo de archivo de imagen",
+        "Una instrucción de texto que describe lo que quieres generar",
+        "Un error del programa"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Un prompt es una instrucción escrita en lenguaje natural que le dice a la IA qué imagen o contenido deseas crear."
+    },
+    {
+      "question": "¿Qué herramienta open source se menciona como opción para crear el Mural digital con función de 'commit'?",
+      "answers": [
+        "Excalidraw",
+        "PowerPoint",
+        "Photoshop",
+        "Canva"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Excalidraw es una herramienta open source de dibujo que permite exportar en JSON y podría usarse para crear un mural con confirmación de aportaciones."
+    },
+    {
+      "question": "En 'Aprende Git', ¿qué es un 'fork' de un repositorio?",
+      "answers": [
+        "Una copia de un repositorio en tu cuenta de GitHub",
+        "Un tipo de archivo",
+        "Un comando para borrar archivos",
+        "Un error en el código"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Un fork es una copia de un repositorio de otra persona en tu propia cuenta, que puedes modificar sin afectar al original."
+    }
+  ]
+}

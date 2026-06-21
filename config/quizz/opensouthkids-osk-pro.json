@@ -1,0 +1,80 @@
+{
+  "subject": "OpenSouthKids - PRO",
+  "questions": [
+    {
+      "question": "En ComicIA, ¿qué herramienta se usa para componer las viñetas generadas por IA en un cómic final?",
+      "answers": [
+        "Photoshop",
+        "Pegacomic",
+        "Canva",
+        "GIMP"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 25,
+      "explanation": "Pegacomic es una aplicación sencilla creada específicamente para añadir bocadillos y componer las viñetas generadas con IA en un cómic completo."
+    },
+    {
+      "question": "¿Qué organización europea promueve el proyecto Ada & Zangemann del que surge la actividad 'Cine Zangemann'?",
+      "answers": [
+        "La Agencia Espacial Europea",
+        "La Cruz Roja",
+        "La UNESCO",
+        "La Free Software Foundation Europe (FSFE)"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 10,
+      "time": 25,
+      "explanation": "La FSFE (Free Software Foundation Europe) promueve el proyecto Ada & Zangemann para acercar la historia de Ada Lovelace y el software libre a los más pequeños."
+    },
+    {
+      "question": "En el contexto de NFC, ¿qué significa que la comunicación sea 'de campo cercano'?",
+      "answers": [
+        "Que necesita internet",
+        "Que solo funciona de día",
+        "Que los dispositivos deben estar muy cerca (pocos centímetros)",
+        "Que solo transmite sonido"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 25,
+      "explanation": "NFC (Near Field Communication) requiere que los dispositivos estén a pocos centímetros uno del otro para transmitir datos de forma segura."
+    },
+    {
+      "question": "En TinkerCAD, ¿qué formato de archivo se usa normalmente para enviar un diseño a una impresora 3D?",
+      "answers": [
+        "PDF",
+        "STL",
+        "MP4",
+        "JPG"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 25,
+      "explanation": "STL (STereoLithography) es el formato estándar para impresión 3D. Describe la geometría de la superficie del objeto tridimensional."
+    },
+    {
+      "question": "¿Qué concepto de pensamiento computacional se trabaja principalmente en la actividad 'Desenchufao'?",
+      "answers": [
+        "Diseño de interfaces",
+        "Descomposición de problemas y reconocimiento de patrones",
+        "Programación en Python",
+        "Administración de servidores"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 25,
+      "explanation": "Las actividades desenchufadas enseñan a descomponer problemas en partes más pequeñas y a encontrar patrones, conceptos fundamentales del pensamiento computacional."
+    }
+  ]
+}

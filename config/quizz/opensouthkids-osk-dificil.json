@@ -1,0 +1,80 @@
+{
+  "subject": "OpenSouthKids - Difícil",
+  "questions": [
+    {
+      "question": "En el taller 'Aprende Git', ¿qué comando usas para guardar los cambios en tu repositorio local?",
+      "answers": [
+        "git commit",
+        "git fork",
+        "git push",
+        "git clone"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 15,
+      "explanation": "El comando 'git commit' guarda los cambios en el historial de tu repositorio local. 'git push' los envía al servidor remoto."
+    },
+    {
+      "question": "En el taller 'Magnific workflow', ¿qué tipo de IA se utiliza para generar imágenes?",
+      "answers": [
+        "IA generativa con referencias de texto e imágenes",
+        "IA de reconocimiento facial",
+        "IA de traducción automática",
+        "IA conversacional como ChatGPT"
+      ],
+      "solutions": [
+        0
+      ],
+      "cooldown": 10,
+      "time": 15,
+      "explanation": "Magnific usa IA generativa que combina referencias de texto e imágenes para crear nuevas imágenes a partir de un prompt."
+    },
+    {
+      "question": "¿Qué tecnología usa la actividad 'NFC Cinexin' para transmitir información?",
+      "answers": [
+        "Bluetooth",
+        "Wi-Fi",
+        "NFC (Near Field Communication)",
+        "Infrarrojos"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 15,
+      "explanation": "NFC (comunicación de campo cercano) permite transmitir datos acercando dos dispositivos, como una tarjeta y un lector."
+    },
+    {
+      "question": "En el taller 'Desenchufao', ¿qué se trabaja sin usar ordenador?",
+      "answers": [
+        "Realidad virtual",
+        "Diseño gráfico",
+        "Pensamiento computacional",
+        "Programación web"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 15,
+      "explanation": "Las actividades 'desenchufadas' enseñan conceptos de programación y lógica sin necesidad de dispositivos electrónicos."
+    },
+    {
+      "question": "¿Qué actividad está relacionada con la historia de Ada Lovelace, la primera programadora?",
+      "answers": [
+        "Hackea el Zombie",
+        "Makey Makey Dance Dance",
+        "Micro:bit Luces",
+        "Ada Kraft y Cine Zangemann"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 10,
+      "time": 15,
+      "explanation": "Ada Kraft y Cine Zangemann se basan en el libro de la FSFE sobre Ada Lovelace, pionera de la programación informática."
+    }
+  ]
+}
