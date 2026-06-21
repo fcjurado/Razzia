@@ -1,8 +1,11 @@
 import { EXAMPLE_QUIZZ } from "@razzia/common/constants"
 import type {
-  GameResult,
-  GameResultMeta,
-  QuizzWithId,
+    GameResult,
+    GameResultMeta,
+    GameResultPlayer,
+    QuizzWithId,
+    RankingPlayer,
+    RankingStats,
 } from "@razzia/common/types/game"
 import { quizzValidator } from "@razzia/common/validators/quizz"
 import { normalizeFilename } from "@razzia/socket/utils/game"
@@ -221,6 +224,105 @@ export const getResultById = (id: string): GameResult => {
   }
 
   return JSON.parse(fs.readFileSync(filePath, "utf-8")) as GameResult
+}
+
+export const getRankingStats = (): RankingStats => {
+  const empty: RankingStats = {
+    totalGames: 0,
+    totalPlayerEntries: 0,
+    global: [],
+    byQuiz: [],
+  }
+
+  const resultsPath = getPath("results")
+
+  if (!fs.existsSync(resultsPath)) {
+    return empty
+  }
+
+  const accumulate = (
+    map: Map<string, RankingPlayer>,
+    player: GameResultPlayer,
+  ) => {
+    const playerId = player.playerId ?? player.username
+    const key = `${player.username}__${playerId}`
+    const existing = map.get(key)
+
+    if (existing) {
+      existing.totalPoints += player.points
+      existing.gamesPlayed += 1
+      existing.bestRank = Math.min(existing.bestRank, player.rank)
+    } else {
+      map.set(key, {
+        username: player.username,
+        playerId,
+        totalPoints: player.points,
+        gamesPlayed: 1,
+        bestRank: player.rank,
+      })
+    }
+  }
+
+  const byPoints = (a: RankingPlayer, b: RankingPlayer) =>
+    b.totalPoints - a.totalPoints
+
+  const globalMap = new Map<string, RankingPlayer>()
+  const quizMap = new Map<
+    string,
+    { gamesPlayed: number; players: Map<string, RankingPlayer> }
+  >()
+
+  let totalGames = 0
+  let totalPlayerEntries = 0
+
+  try {
+    const files = fs
+      .readdirSync(resultsPath)
+      .filter((file) => file.endsWith(".json"))
+
+    for (const file of files) {
+      let result: GameResult
+
+      try {
+        const data = fs.readFileSync(getPath(`results/${file}`), "utf-8")
+        result = JSON.parse(data) as GameResult
+      } catch {
+        continue
+      }
+
+      totalGames += 1
+
+      const quizEntry = quizMap.get(result.subject) ?? {
+        gamesPlayed: 0,
+        players: new Map<string, RankingPlayer>(),
+      }
+      quizEntry.gamesPlayed += 1
+
+      for (const player of result.players) {
+        totalPlayerEntries += 1
+        accumulate(globalMap, player)
+        accumulate(quizEntry.players, player)
+      }
+
+      quizMap.set(result.subject, quizEntry)
+    }
+  } catch (error) {
+    console.error("Failed to read ranking stats:", error)
+
+    return empty
+  }
+
+  const global = [...globalMap.values()].sort(byPoints)
+  const byQuiz = [...quizMap.entries()]
+    .map(([subject, entry]) => ({
+      subject,
+      gamesPlayed: entry.gamesPlayed,
+      playerCount: entry.players.size,
+      players: [...entry.players.values()].sort(byPoints),
+    }))
+    .sort((a, b) => a.subject.localeCompare(b.subject))
+
+  return { totalGames, totalPlayerEntries, global, byQuiz }
 }
 
 export const deleteResult = (id: string): void => {

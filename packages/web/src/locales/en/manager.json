@@ -14,8 +14,19 @@
     "pleaseSelect": "Please select a quizz",
     "startGame": "Start game"
   },
+  "ranking": {
+    "global": "Global ranking",
+    "byQuiz": "By quizz",
+    "games": "Games",
+    "gamesPlayed": "Games",
+    "gamesCount": "{{count}} game(s)",
+    "none": "No scores yet, finish a game to see the ranking here",
+    "players": "Players",
+    "playerCount": "{{count}} player(s)",
+    "points": "pts",
+    "quizzes": "Quizzes"
+  },
   "result": {
-    "delete": "Delete result",
     "deleteConfirm": "Delete result for \"{{name}}\"? This cannot be undone.",
     "deleted": "Result deleted",
     "noAnswer": "No answer",
@@ -39,6 +50,7 @@
   "tabs": {
     "play": "Play",
     "quizz": "Quizz",
-    "results": "Results"
+    "results": "Results",
+    "ranking": "Ranking"
   }
 }

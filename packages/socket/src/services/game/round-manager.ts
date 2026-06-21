@@ -1,18 +1,18 @@
 // oxlint-disable typescript/no-unnecessary-condition
 import { EVENTS, MEDIA_TYPES, NO_TIME_LIMIT } from "@razzia/common/constants"
 import type {
-  Answer,
-  GameResult,
-  Player,
-  Question,
-  QuestionResult,
-  Quizz,
+    Answer,
+    GameResult,
+    Player,
+    Question,
+    QuestionResult,
+    Quizz,
 } from "@razzia/common/types/game"
 import type { Server, Socket } from "@razzia/common/types/game/socket"
 import {
-  type Status,
-  STATUS,
-  type StatusDataMap,
+    type Status,
+    STATUS,
+    type StatusDataMap,
 } from "@razzia/common/types/game/status"
 import { CooldownTimer } from "@razzia/socket/services/game/cooldown-timer"
 import { PlayerManager } from "@razzia/socket/services/game/player-manager"
@@ -336,6 +336,7 @@ export class RoundManager {
         date: new Date().toISOString(),
         players: this.leaderboard.map((player, index) => ({
           username: player.username,
+          playerId: player.clientId,
           points: player.points,
           rank: index + 1,
         })),

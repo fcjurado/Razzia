@@ -62,6 +62,7 @@ export type QuestionResult = Question & {
 
 export interface GameResultPlayer {
   username: string
+  playerId: string
   points: number
   rank: number
 }
@@ -79,4 +80,26 @@ export interface GameResultMeta {
   subject: string
   date: string
   playerCount: number
+}
+
+export interface RankingPlayer {
+  username: string
+  playerId: string
+  totalPoints: number
+  gamesPlayed: number
+  bestRank: number
+}
+
+export interface QuizRanking {
+  subject: string
+  gamesPlayed: number
+  playerCount: number
+  players: RankingPlayer[]
+}
+
+export interface RankingStats {
+  totalGames: number
+  totalPlayerEntries: number
+  global: RankingPlayer[]
+  byQuiz: QuizRanking[]
 }

@@ -56,6 +56,8 @@ export const EVENTS = {
     GET: "results:get",
     DATA: "results:data",
     DELETE: "results:delete",
+    GET_STATS: "results:getStats",
+    STATS: "results:stats",
   },
 } as const
 

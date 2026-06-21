@@ -1,9 +1,10 @@
 import { EVENTS } from "@razzia/common/constants"
 import type {
-  GameResult,
-  GameUpdateQuestion,
-  Player,
-  QuizzWithId,
+    GameResult,
+    GameUpdateQuestion,
+    Player,
+    QuizzWithId,
+    RankingStats,
 } from "@razzia/common/types/game"
 import type { Status, StatusDataMap } from "@razzia/common/types/game/status"
 import type { ManagerConfig } from "@razzia/common/types/manager"
@@ -88,6 +89,7 @@ export interface ServerToClientEvents {
 
   // Results events
   [EVENTS.RESULTS.DATA]: (_result: GameResult) => void
+  [EVENTS.RESULTS.STATS]: (_stats: RankingStats) => void
 }
 
 export interface ClientToServerEvents {
@@ -127,6 +129,7 @@ export interface ClientToServerEvents {
   // Results actions
   [EVENTS.RESULTS.GET]: (_id: string) => void
   [EVENTS.RESULTS.DELETE]: (_id: string) => void
+  [EVENTS.RESULTS.GET_STATS]: () => void
 
   // Common
   disconnect: () => void

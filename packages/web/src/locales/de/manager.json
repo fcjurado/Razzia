@@ -14,8 +14,19 @@
     "pleaseSelect": "Bitte wähle ein Quiz aus",
     "startGame": "Spiel starten"
   },
+  "ranking": {
+    "global": "Gesamtrangliste",
+    "byQuiz": "Nach Quiz",
+    "games": "Spiele",
+    "gamesPlayed": "Spiele",
+    "gamesCount": "{{count}} Spiel(e)",
+    "none": "Noch keine Punkte, beende ein Spiel, um die Rangliste hier zu sehen",
+    "players": "Spieler",
+    "playerCount": "{{count}} Spieler",
+    "points": "Pkt",
+    "quizzes": "Quizze"
+  },
   "result": {
-    "delete": "Ergebnis löschen",
     "deleteConfirm": "Ergebnis für \"{{name}}\" löschen? Dies kann nicht rückgängig gemacht werden.",
     "deleted": "Ergebnis gelöscht",
     "noAnswer": "Keine Antwort",
@@ -39,6 +50,7 @@
   "tabs": {
     "play": "Spielen",
     "quizz": "Quiz",
-    "results": "Ergebnisse"
+    "results": "Ergebnisse",
+    "ranking": "Rangliste"
   }
 }

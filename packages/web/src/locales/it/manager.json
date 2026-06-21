@@ -14,8 +14,19 @@
     "pleaseSelect": "Per favore seleziona un quiz",
     "startGame": "Inizia il gioco"
   },
+  "ranking": {
+    "global": "Classifica globale",
+    "byQuiz": "Per quiz",
+    "games": "Partite",
+    "gamesPlayed": "Partite",
+    "gamesCount": "{{count}} partita/e",
+    "none": "Ancora nessun punteggio, termina una partita per vedere la classifica qui",
+    "players": "Giocatori",
+    "playerCount": "{{count}} giocatore/i",
+    "points": "pt",
+    "quizzes": "Quiz"
+  },
   "result": {
-    "delete": "Elimina risultato",
     "deleteConfirm": "Eliminare il risultato per \"{{name}}\"? Questa azione non può essere annullata.",
     "deleted": "Risultato eliminato",
     "noAnswer": "Nessuna risposta",
@@ -39,6 +50,7 @@
   "tabs": {
     "play": "Gioca",
     "quizz": "Quiz",
-    "results": "Risultati"
+    "results": "Risultati",
+    "ranking": "Classifica"
   }
 }

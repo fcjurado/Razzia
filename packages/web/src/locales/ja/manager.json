@@ -14,8 +14,19 @@
     "pleaseSelect": "クイズを選択してください",
     "startGame": "ゲーム開始"
   },
+  "ranking": {
+    "global": "総合ランキング",
+    "byQuiz": "クイズ別",
+    "games": "ゲーム数",
+    "gamesPlayed": "ゲーム数",
+    "gamesCount": "{{count}}ゲーム",
+    "none": "まだスコアがありません。ゲームを終了するとここにランキングが表示されます",
+    "players": "プレイヤー",
+    "playerCount": "{{count}}人",
+    "points": "点",
+    "quizzes": "クイズ"
+  },
   "result": {
-    "delete": "結果を削除",
     "deleteConfirm": "「{{name}}」の結果を削除しますか？この操作は元に戻せません。",
     "deleted": "結果を削除しました",
     "noAnswer": "未回答",
@@ -39,6 +50,7 @@
   "tabs": {
     "play": "プレイ",
     "quizz": "クイズ",
-    "results": "結果"
+    "results": "結果",
+    "ranking": "ランキング"
   }
 }

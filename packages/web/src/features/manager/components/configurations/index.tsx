@@ -5,6 +5,7 @@ import LanguageSwitcher from "@razzia/web/components/LanguageSwitcher"
 import { useSocket } from "@razzia/web/features/game/contexts/socket-context"
 import { useManagerStore } from "@razzia/web/features/game/stores/manager"
 import ConfigManageQuizz from "@razzia/web/features/manager/components/configurations/ConfigManageQuizz"
+import ConfigRanking from "@razzia/web/features/manager/components/configurations/ConfigRanking"
 import ConfigResults from "@razzia/web/features/manager/components/configurations/ConfigResults"
 import ConfigSelectQuizz from "@razzia/web/features/manager/components/configurations/ConfigSelectQuizz"
 import ConfigTabButton from "@razzia/web/features/manager/components/configurations/ConfigTabButton"
@@ -25,6 +26,10 @@ const tabs = [
   {
     nameKey: "manager:tabs.results",
     component: ConfigResults,
+  },
+  {
+    nameKey: "manager:tabs.ranking",
+    component: ConfigRanking,
   },
 ]
 
