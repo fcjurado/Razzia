@@ -143,8 +143,15 @@ export const gameSocketHandlers = ({ io, socket }: SocketContext) => {
     }
   })
 
-  socket.on("disconnect", () => {
-    console.log(`A user disconnected : ${socket.id}`)
+  socket.on("disconnect", (reason) => {
+    try {
+      const auth = socket.handshake?.auth
+      console.log(
+        `A user disconnected : ${socket.id} reason=${reason} auth=${JSON.stringify(auth)}`,
+      )
+    } catch (err) {
+      console.log(`A user disconnected : ${socket.id} reason=${reason}`)
+    }
 
     const managerGame = registry.getGameByManagerSocketId(socket.id)
 
