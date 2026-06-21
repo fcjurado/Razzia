@@ -49,13 +49,13 @@
     {
       "question": "¿Qué debemos hacer antes de instalar una app desconocida?",
       "answers": [
-        "Preguntar a una persona adulta",
         "Instalarla corriendo",
+        "Preguntar a una persona adulta",
         "Dar todas las contraseñas",
         "Apagar la casa"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 15,

@@ -4,13 +4,13 @@
     {
       "question": "En el taller 'Aprende Git', ¿qué comando usas para guardar los cambios en tu repositorio local?",
       "answers": [
-        "git commit",
         "git fork",
+        "git commit",
         "git push",
         "git clone"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 15,
@@ -19,13 +19,13 @@
     {
       "question": "En el taller 'Magnific workflow', ¿qué tipo de IA se utiliza para generar imágenes?",
       "answers": [
-        "IA generativa con referencias de texto e imágenes",
         "IA de reconocimiento facial",
+        "IA generativa con referencias de texto e imágenes",
         "IA de traducción automática",
         "IA conversacional como ChatGPT"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 15,

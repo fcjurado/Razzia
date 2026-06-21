@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es la programación orientada a objetos (POO)?",
       "answers": [
-        "Una forma de organizar el código usando objetos que tienen propiedades y comportamientos",
         "Un tipo de lápiz virtual",
         "Una manera de dibujar en pantalla",
-        "Un protocolo de red"
+        "Un protocolo de red",
+        "Una forma de organizar el código usando objetos que tienen propiedades y comportamientos"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 25,
@@ -19,13 +19,13 @@
     {
       "question": "¿Qué significa 'open source'?",
       "answers": [
-        "Que el código fuente es accesible para ser estudiado, modificado y distribuido",
         "Que es un programa que siempre cuesta dinero",
+        "Que el código fuente es accesible para ser estudiado, modificado y distribuido",
         "Que solo se puede usar en la escuela",
         "Que es más lento"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 20,
@@ -34,17 +34,47 @@
     {
       "question": "¿Qué es la latencia en redes?",
       "answers": [
-        "El retraso en la transmisión de datos entre un punto y otro",
         "Una forma de almacenar archivos",
         "Un programa para dibujar",
+        "El retraso en la transmisión de datos entre un punto y otro",
         "Un tipo de batería"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 20,
       "explanation": "La latencia es el tiempo que tarda un paquete en viajar desde el emisor al receptor; baja latencia mejora la experiencia en juegos y videollamadas."
+    },
+    {
+      "question": "¿Qué significa versionar código con Git?",
+      "answers": [
+        "Cambiar el color del editor",
+        "Guardar el historial de cambios para poder colaborar y volver atrás",
+        "Comprimir imágenes",
+        "Apagar el servidor"
+      ],
+      "solutions": [
+        1
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Git registra cambios en el código, facilita colaborar y permite recuperar versiones anteriores si algo sale mal."
+    },
+    {
+      "question": "¿Qué es una API?",
+      "answers": [
+        "Una contraseña temporal",
+        "Un tipo de pantalla",
+        "Un conjunto de reglas para que programas se comuniquen",
+        "Un cable HDMI"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Una API define cómo una aplicación puede pedir datos o acciones a otra de forma ordenada."
     }
   ]
 }

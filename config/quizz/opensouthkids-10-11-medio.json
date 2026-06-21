@@ -49,13 +49,13 @@
     {
       "question": "¿Qué es el phishing?",
       "answers": [
-        "Un engaño para robar datos o contraseñas",
         "Un lenguaje de programación",
+        "Un engaño para robar datos o contraseñas",
         "Una impresora 3D",
         "Un tipo de pantalla"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,

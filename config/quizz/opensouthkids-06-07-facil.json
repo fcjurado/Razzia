@@ -34,13 +34,13 @@
     {
       "question": "¿Qué necesita un robot para saber qué hacer?",
       "answers": [
-        "Instrucciones",
         "Caramelos",
         "Sueño",
+        "Instrucciones",
         "Zapatos"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 15,
       "time": 20,

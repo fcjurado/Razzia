@@ -34,13 +34,13 @@
     {
       "question": "¿Qué hace Docker?",
       "answers": [
-        "Empaqueta apps con lo necesario para ejecutarlas",
         "Diseña iconos",
         "Cambia contraseñas",
+        "Empaqueta apps con lo necesario para ejecutarlas",
         "Aumenta el brillo"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,

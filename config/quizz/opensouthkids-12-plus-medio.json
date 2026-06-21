@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una petición HTTP?",
       "answers": [
-        "Un mensaje del navegador a un servidor",
         "Una pieza de Lego",
+        "Un mensaje del navegador a un servidor",
         "Una contraseña",
         "Un disco duro"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué es una dirección IP?",
       "answers": [
-        "Un identificador de un dispositivo en una red",
         "Una imagen PNG",
         "Una licencia de software",
+        "Un identificador de un dispositivo en una red",
         "Una tecla de función"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,

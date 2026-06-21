@@ -49,13 +49,13 @@
     {
       "question": "¿Qué es una contraseña?",
       "answers": [
-        "Una palabra secreta para entrar",
         "Un dibujo de colores",
+        "Una palabra secreta para entrar",
         "Un altavoz",
         "Un botón de volumen"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 20,

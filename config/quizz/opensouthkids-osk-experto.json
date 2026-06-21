@@ -4,13 +4,13 @@
     {
       "question": "En el taller 'Detective digital' de YesWeTech, ¿qué técnica de cifrado desplaza las letras un número fijo de posiciones?",
       "answers": [
-        "Cifrado César",
         "Lenguaje binario",
         "Esteganografía",
-        "Código Morse"
+        "Código Morse",
+        "Cifrado César"
       ],
       "solutions": [
-        0
+        3
       ],
       "cooldown": 10,
       "time": 20,
@@ -64,13 +64,13 @@
     {
       "question": "En 'Aprende Git', ¿qué es un 'fork' de un repositorio?",
       "answers": [
-        "Una copia de un repositorio en tu cuenta de GitHub",
         "Un tipo de archivo",
         "Un comando para borrar archivos",
+        "Una copia de un repositorio en tu cuenta de GitHub",
         "Un error en el código"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 20,

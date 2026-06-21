@@ -4,13 +4,13 @@
     {
       "question": "¿Qué lenguaje se usa mucho para crear páginas web interactivas?",
       "answers": [
-        "JavaScript",
         "PiedraScript",
+        "JavaScript",
         "Cable++",
         "TortillaLang"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,
@@ -64,13 +64,13 @@
     {
       "question": "¿Qué significa 'software libre'?",
       "answers": [
-        "Software que respeta libertades para usar, estudiar y compartir",
         "Software que siempre cuesta cero",
         "Software sin botones",
+        "Software que respeta libertades para usar, estudiar y compartir",
         "Software que solo funciona sin internet"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 10,

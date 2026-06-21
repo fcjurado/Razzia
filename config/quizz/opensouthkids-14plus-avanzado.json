@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es un algoritmo?",
       "answers": [
-        "Una receta o conjunto de pasos para resolver un problema",
         "Un tipo de ordenador",
         "Un virus informático",
+        "Una receta o conjunto de pasos para resolver un problema",
         "Un cable especial"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 20,
@@ -45,6 +45,36 @@
       "cooldown": 10,
       "time": 20,
       "explanation": "La ciberseguridad busca proteger la confidencialidad, integridad y disponibilidad de la información y los sistemas."
+    },
+    {
+      "question": "¿Para qué sirve una condición 'si... entonces' en programación?",
+      "answers": [
+        "Para decorar el código",
+        "Para borrar variables automáticamente",
+        "Para tomar decisiones según se cumpla una regla",
+        "Para conectar un teclado"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Una condición permite que un programa elija entre caminos diferentes según una regla, por ejemplo si una respuesta es correcta."
+    },
+    {
+      "question": "¿Qué representa una variable en programación?",
+      "answers": [
+        "Un error del sistema",
+        "Un cable de red",
+        "Un dibujo fijo",
+        "Un espacio con nombre para guardar un valor"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Una variable guarda un dato que el programa puede leer o cambiar durante su ejecución."
     }
   ]
 }

@@ -19,13 +19,13 @@
     {
       "question": "¿Qué significa guardar un dibujo en el ordenador?",
       "answers": [
-        "Dejarlo guardado para verlo después",
         "Borrarlo para siempre",
+        "Dejarlo guardado para verlo después",
         "Hacerlo más pesado",
         "Apagar la luz"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 20,

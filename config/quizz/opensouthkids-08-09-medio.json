@@ -34,13 +34,13 @@
     {
       "question": "¿Qué significa código abierto?",
       "answers": [
-        "Que podemos ver cómo está hecho el programa",
         "Que el ordenador está sin tapa",
         "Que la pantalla está rota",
+        "Que podemos ver cómo está hecho el programa",
         "Que no tiene iconos"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 15,
       "time": 15,

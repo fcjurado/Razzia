@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es un repositorio?",
       "answers": [
-        "Un lugar donde se guarda un proyecto y su historial",
         "Un antivirus",
+        "Un lugar donde se guarda un proyecto y su historial",
         "Un archivo de música",
         "Un tipo de pantalla"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,

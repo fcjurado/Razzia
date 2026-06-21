@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es la nube en tecnología?",
       "answers": [
-        "Servicios y datos en servidores de internet",
         "Agua dentro del móvil",
+        "Servicios y datos en servidores de internet",
         "Un fondo de pantalla",
         "Un tipo de teclado"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 10,

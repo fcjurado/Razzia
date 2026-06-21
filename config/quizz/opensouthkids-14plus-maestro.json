@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es el machine learning (aprendizaje automático)?",
       "answers": [
-        "Un conjunto de técnicas que permiten a las máquinas aprender de datos",
         "Una nueva consola de videojuegos",
+        "Un conjunto de técnicas que permiten a las máquinas aprender de datos",
         "Una forma de pintar con el ratón",
         "Un tipo de cable"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 30,
@@ -19,13 +19,13 @@
     {
       "question": "¿Qué es la ética digital?",
       "answers": [
-        "El estudio de principios morales aplicados al uso de la tecnología y los datos",
         "Una aplicación para editar fotos",
+        "El estudio de principios morales aplicados al uso de la tecnología y los datos",
         "Un tipo de contraseña",
         "Un protocolo de vídeo"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 20,
@@ -34,17 +34,47 @@
     {
       "question": "¿Por qué es importante verificar fuentes en internet?",
       "answers": [
-        "Para asegurarnos de que la información es veraz y evitar desinformación",
         "Porque internet borra las páginas cada hora",
         "Porque así cargan más rápido las imágenes",
+        "Para asegurarnos de que la información es veraz y evitar desinformación",
         "Porque es obligatorio"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 10,
       "time": 20,
       "explanation": "Verificar fuentes ayuda a distinguir hechos de rumores y protege contra noticias falsas o manipuladas."
+    },
+    {
+      "question": "¿Qué es un sesgo en un algoritmo de inteligencia artificial?",
+      "answers": [
+        "Un modo de aumentar el volumen",
+        "Una tecla especial",
+        "Una tendencia del sistema a favorecer ciertos resultados por los datos o el diseño",
+        "Un formato de imagen"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "Un sesgo puede aparecer si los datos de entrenamiento no representan bien a todas las personas o situaciones."
+    },
+    {
+      "question": "¿Qué significa privacidad por diseño?",
+      "answers": [
+        "Ocultar todos los botones",
+        "Usar solo pantallas oscuras",
+        "Publicar todos los datos",
+        "Pensar en proteger los datos desde el inicio de un producto"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 10,
+      "time": 20,
+      "explanation": "La privacidad por diseño incorpora protección de datos desde las primeras decisiones técnicas y de producto."
     }
   ]
 }

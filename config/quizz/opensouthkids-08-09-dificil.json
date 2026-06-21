@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una variable en programación?",
       "answers": [
-        "Un lugar donde guardar un dato",
         "Una pantalla táctil",
+        "Un lugar donde guardar un dato",
         "Un cable HDMI",
         "Una foto borrosa"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 15,
       "time": 15,
@@ -64,13 +64,13 @@
     {
       "question": "¿Cuál es una buena práctica con contraseñas?",
       "answers": [
-        "Usar una contraseña larga y difícil de adivinar",
         "Usar siempre '123456'",
         "Escribirla en un cartel",
+        "Usar una contraseña larga y difícil de adivinar",
         "Compartirla en un chat público"
       ],
       "solutions": [
-        0
+        2
       ],
       "cooldown": 15,
       "time": 15,
