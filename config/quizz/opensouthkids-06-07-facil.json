@@ -4,13 +4,13 @@
     {
       "question": "¿Qué usamos para mover la flecha en la pantalla?",
       "answers": [
-        "Lámpara",
         "Ratón",
+        "Lámpara",
         "Tostadora",
         "Mochila"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 15,
       "time": 20,

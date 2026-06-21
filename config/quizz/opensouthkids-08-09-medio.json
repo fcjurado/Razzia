@@ -4,13 +4,13 @@
     {
       "question": "¿Qué hace un algoritmo?",
       "answers": [
-        "Esconde el teclado",
         "Ordena pasos para resolver un problema",
+        "Esconde el teclado",
         "Carga una batería",
         "Dibuja solo círculos"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 15,
       "time": 15,

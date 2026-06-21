@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es programar?",
       "answers": [
-        "Hacer magia",
         "Dar instrucciones a una máquina",
+        "Hacer magia",
         "Pintar una pared",
         "Cerrar una ventana"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 15,
       "time": 15,

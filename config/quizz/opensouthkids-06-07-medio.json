@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una pantalla táctil?",
       "answers": [
+        "Una pantalla que responde al tocarla",
         "Una pantalla de papel",
         "Una pantalla invisible",
-        "Una pantalla que responde al tocarla",
         "Una pantalla que da calor"
       ],
       "solutions": [
-        2
+        0
       ],
       "cooldown": 15,
       "time": 20,

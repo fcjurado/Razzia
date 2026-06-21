@@ -4,13 +4,13 @@
     {
       "question": "¿Qué lenguaje se usa mucho para crear páginas web interactivas?",
       "answers": [
-        "PiedraScript",
         "JavaScript",
+        "PiedraScript",
         "Cable++",
         "TortillaLang"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 10,
       "time": 10,

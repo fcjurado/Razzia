@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una base de datos?",
       "answers": [
-        "Un altavoz inalámbrico",
         "Un sistema para guardar y consultar datos organizados",
+        "Un altavoz inalámbrico",
         "Un cable USB",
         "Una pantalla rota"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 10,
       "time": 10,

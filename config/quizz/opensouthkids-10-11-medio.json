@@ -4,13 +4,13 @@
     {
       "question": "¿Qué hace Git?",
       "answers": [
-        "Bloquea el teclado",
         "Controla versiones de archivos y código",
+        "Bloquea el teclado",
         "Acelera el ventilador",
         "Dibuja emojis"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 10,
       "time": 10,

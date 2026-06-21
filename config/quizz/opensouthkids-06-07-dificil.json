@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es un programa?",
       "answers": [
-        "Una mesa pequeña",
         "Una lista de instrucciones para un ordenador",
+        "Una mesa pequeña",
         "Una merienda",
         "Un cable"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 15,
       "time": 20,

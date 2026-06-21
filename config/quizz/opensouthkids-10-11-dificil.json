@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una función en programación?",
       "answers": [
+        "Un bloque de código reutilizable",
         "Una cuenta de correo",
         "Un botón del monitor",
-        "Un bloque de código reutilizable",
         "Un tipo de cable"
       ],
       "solutions": [
-        2
+        0
       ],
       "cooldown": 10,
       "time": 10,

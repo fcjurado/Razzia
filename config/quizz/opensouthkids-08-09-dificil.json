@@ -4,13 +4,13 @@
     {
       "question": "¿Qué es una variable en programación?",
       "answers": [
-        "Una pantalla táctil",
         "Un lugar donde guardar un dato",
+        "Una pantalla táctil",
         "Un cable HDMI",
         "Una foto borrosa"
       ],
       "solutions": [
-        1
+        0
       ],
       "cooldown": 15,
       "time": 15,
