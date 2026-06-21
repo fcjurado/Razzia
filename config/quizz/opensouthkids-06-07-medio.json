@@ -12,7 +12,7 @@
       "solutions": [
         2
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Una pantalla táctil responde cuando la tocamos con el dedo."
     },
@@ -27,7 +27,7 @@
       "solutions": [
         0
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Guardar sirve para no perder lo que hemos hecho y poder verlo después."
     },
@@ -42,7 +42,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "El monitor enseña lo que hacen las apps, los juegos y los dibujos."
     },
@@ -57,7 +57,7 @@
       "solutions": [
         2
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Internet conecta muchos dispositivos para compartir información."
     },
@@ -72,7 +72,7 @@
       "solutions": [
         3
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Cerrar y abrir otra vez suele arreglar muchos fallos pequeños."
     }

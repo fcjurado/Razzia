@@ -12,7 +12,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "El Octogato es un gato con tentáculos de pulpo, la mascota de GitHub. En el taller diseñas tu propia versión."
     },
@@ -27,7 +27,7 @@
       "solutions": [
         2
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Makey Makey usa materiales conductores como cinta de cobre para crear circuitos que el ordenador puede detectar."
     },
@@ -42,7 +42,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "En 'Anima tu dibujo' los niños aprenden a dar vida a sus creaciones usando herramientas de animación digital."
     },
@@ -57,7 +57,7 @@
       "solutions": [
         3
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Con pilas, LEDs y materiales sencillos sobre papel, puedes crear un circuito que ilumine tu dibujo."
     },
@@ -72,7 +72,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "La web myoctocat.com permite diseñar tu propio Octogato, el personaje gato-pulpo de GitHub."
     }

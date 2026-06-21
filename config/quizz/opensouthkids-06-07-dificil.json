@@ -12,7 +12,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Un programa es una lista de instrucciones para que el ordenador haga una tarea."
     },
@@ -27,7 +27,7 @@
       "solutions": [
         2
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Un sensor nota la luz y ayuda a la máquina a entender su entorno."
     },
@@ -42,7 +42,7 @@
       "solutions": [
         3
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Un bucle repite pasos para no escribir lo mismo una y otra vez."
     },
@@ -57,7 +57,7 @@
       "solutions": [
         0
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "La contraseña protege una cuenta, como una llave secreta."
     },
@@ -72,7 +72,7 @@
       "solutions": [
         2
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Un botón activa una acción cuando lo pulsamos."
     }

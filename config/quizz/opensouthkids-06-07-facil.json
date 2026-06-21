@@ -12,7 +12,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "El ratón mueve el puntero y nos ayuda a elegir cosas en el ordenador."
     },
@@ -27,7 +27,7 @@
       "solutions": [
         3
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "El teclado tiene letras y números para escribir mensajes y respuestas."
     },
@@ -42,7 +42,7 @@
       "solutions": [
         0
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Un robot sigue instrucciones: eso es programar."
     },
@@ -57,7 +57,7 @@
       "solutions": [
         1
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "La papelera significa borrar o quitar algo que ya no queremos."
     },
@@ -72,7 +72,7 @@
       "solutions": [
         3
       ],
-      "cooldown": 20,
+      "cooldown": 15,
       "time": 20,
       "explanation": "Al encenderlo, el dispositivo empieza a funcionar y a cargar sus programas."
     }
