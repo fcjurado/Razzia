@@ -47,19 +47,19 @@
       "explanation": "Un prompt es una instrucción escrita en lenguaje natural que le dice a la IA qué imagen o contenido deseas crear."
     },
     {
-      "question": "¿Qué herramienta open source se menciona como opción para crear el Mural digital con función de 'commit'?",
+      "question": "En el taller 'Ada Kraft', ¿qué tipo de actividad se realiza?",
       "answers": [
-        "Excalidraw",
-        "PowerPoint",
-        "Photoshop",
-        "Canva"
+        "Programación de robots",
+        "Manualidades inspiradas en Ada Lovelace",
+        "Diseño de videojuegos",
+        "Creación de páginas web"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 10,
       "time": 20,
-      "explanation": "Excalidraw es una herramienta open source de dibujo que permite exportar en JSON y podría usarse para crear un mural con confirmación de aportaciones."
+      "explanation": "Ada Kraft es un taller de manualidades inspirado en la historia de Ada Lovelace, la primera programadora de la historia. Los niños crean con materiales como hueveras, corcho y palillos."
     },
     {
       "question": "En 'Aprende Git', ¿qué es un 'fork' de un repositorio?",

@@ -32,19 +32,19 @@
       "explanation": "Makey Makey usa materiales conductores como cinta de cobre para crear circuitos que el ordenador puede detectar."
     },
     {
-      "question": "¿Qué actividad consiste en dibujar en una tablet para crear un mural entre todos?",
+      "question": "En el taller 'Anima tu dibujo', ¿qué aprendes a hacer?",
       "answers": [
-        "Mural digital",
-        "TinkerCAD 3D",
-        "Ada Kraft",
-        "ComicIA"
+        "Dibujar con carboncillo",
+        "Crear animaciones digitales a partir de un dibujo",
+        "Pintar con acuarelas",
+        "Hacer esculturas de plastilina"
       ],
       "solutions": [
-        0
+        1
       ],
       "cooldown": 20,
       "time": 20,
-      "explanation": "En el Mural digital, cada niño dibuja en una tablet y su aportación se une a las demás para crear una obra colectiva."
+      "explanation": "En 'Anima tu dibujo' los niños aprenden a dar vida a sus creaciones usando herramientas de animación digital."
     },
     {
       "question": "En el taller YesWeTech de LEDs, ¿qué material usas para que un dibujo se ilumine?",
