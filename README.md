@@ -9,15 +9,27 @@
 
 ## 🧩 What is this project?
 
-Razzia is a straightforward and open-source quiz platform, allowing users to host it on their own server for smaller events.
+OpenSouthQuiz is based on Razzia, a straightforward and open-source quiz platform that lets you host trivia games on your own server for small to medium events. Players join via their phones, answer questions in real time, and compete on a live leaderboard.
 
-> **Disclaimer**: Razzia is an independent, open-source software project. It is not affiliated with, endorsed by, or sponsored by any third-party quiz platform or service. Any resemblance to other quiz platforms is purely incidental.
+> **Disclaimer**: OpenSouthQuiz is an independent, open-source software project. It is not affiliated with, endorsed by, or sponsored by any third-party quiz platform or service. Any resemblance to other quiz platforms is purely incidental.
 
 <p align="center">
   <img width="30%" src=".github/previews/1.png" alt="Login">
   <img width="30%" src=".github/previews/2.png" alt="Manager Room">
   <img width="30%" src=".github/previews/3.png" alt="Question Screen">
 </p>
+
+## ✨ Features
+
+- **Real-time multiplayer** — WebSocket-based communication for instant updates
+- **Live leaderboard** — points, streaks, and rankings updated after every question
+- **Persistent rankings** — game results are saved and aggregated into a global and per-quiz ranking panel
+- **Multi-answer questions** — support for single and multiple correct answers
+- **Media support** — images, videos, and audio attached to questions
+- **Quiz editor** — create, edit, and delete quizzes from the manager dashboard
+- **i18n** — available in English, Spanish, French, German, Italian, and Japanese
+- **Persistent storage** — Docker deployment with optional persistent disk so results survive restarts
+- **Lightweight** — single container with nginx + Node.js, easy to deploy on Render, Fly.io, or any VPS
 
 ## ⚙️ Prerequisites
 
@@ -30,7 +42,8 @@ Choose one of the following deployment methods:
 
 ### With Docker
 
-- Docker and Docker Compose
+- Docker and Docker Compose (for production)
+- Or any container runtime that supports Dockerfiles (Render, Fly.io, etc.)
 
 ## 📖 Getting Started
 
@@ -51,28 +64,37 @@ Or using Docker directly:
 ```bash
 docker run -d \
   -p 3000:3000 \
-  -v ./config:/app/config \
+  -v ./config:/app/data \
   ralex91/razzia:latest
 ```
 
 **Configuration Volume:**
-The `-v ./config:/app/config` option mounts a local `config` folder to persist your game settings and quizzes. This allows you to:
+The `-v ./config:/app/data` option mounts a local `config` folder to persist your game settings, quizzes, and ranking results. This allows you to:
 
 - Edit your configuration files directly on your host machine
-- Keep your settings when updating the container
-- Easily backup your quizzes and game configuration
+- Keep your settings and results when updating the container
+- Easily backup your quizzes, game configuration, and player rankings
 
 The folder will be created automatically on first run with an example quiz to get you started.
 
 The application will be available at http://localhost:3000
+
+### ☁️ Cloud Deployment
+
+The repository includes deployment configurations for popular cloud platforms:
+
+- **Render** — `render.yaml` (Blueprint-ready, supports persistent disk on Starter plan)
+- **Fly.io** — `fly.toml` (native WebSockets, auto-stop/start to save resources)
+
+See [DEPLOY.md](/DEPLOY.md) for step-by-step deployment instructions.
 
 ### 🛠️ Without Docker
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Ralex91/Razzia.git
-cd ./Razzia
+git clone https://github.com/Ralex91/OpenSouthQuiz.git
+cd ./OpenSouthQuiz
 ```
 
 2. Install dependencies:
@@ -163,9 +185,20 @@ Quiz Options:
   - `media`: Optional media object displayed with the question:
     - `type`: `"image"`, `"video"`, or `"audio"`
     - `url`: URL of the media
+  - `explanation`: Optional explanation shown after the answer is revealed
   - `solutions`: Array of correct answer indices (0-based). Use multiple indices for multi-answer questions
   - `cooldown`: Time in seconds before answers are revealed (3-15)
   - `time`: Time in seconds allowed to answer (5-120)
+
+### 3. Results and Rankings
+
+Game results are automatically saved to the persistent storage directory. The manager dashboard includes a **Ranking** panel that shows:
+
+- **Global ranking** — aggregated points across all quizzes per player
+- **Per-quiz ranking** — expandable breakdown for each quiz
+- **Summary stats** — total games played, total player entries
+
+Players are identified by `username + random playerId` to avoid name collisions.
 
 ## 🎮 How to Play
 
@@ -175,12 +208,43 @@ Quiz Options:
 4. Wait for players to join
 5. Click the start button to begin the game
 
+### Manager Controls
+
+- **Start / advance questions** — control the game flow
+- **Show leaderboard** — display current standings to players
+- **Next question** — skip to the next question
+- **Abort quiz** — end the current game early
+- **Kick player** — remove a disruptive player
+- **Quiz editor** — create and manage quizzes from the dashboard
+- **Results** — browse past game results with detailed question breakdowns
+- **Ranking** — view global and per-quiz player rankings (persistent across games)
+
+## 🏗️ Architecture
+
+```
+packages/
+├── common/          # Shared types, constants, and validators
+├── socket/          # WebSocket server (game logic, player management)
+└── web/             # React frontend (Vite + Tailwind)
+
+docker/
+├── nginx.conf       # Reverse proxy config
+├── supervisord.conf # Process manager config
+└── entrypoint.sh    # Config seeding on first boot
+
+config/
+├── game.json        # Game settings (manager password)
+└── quizz/           # Quiz files (one per quiz)
+```
+
+The server (`packages/socket`) handles WebSocket connections, game state, and persistence. The frontend (`packages/web`) renders the player and manager UIs. Shared code lives in `packages/common`.
+
 ## 📝 Contributing
 
 Contributions are welcome! Please read the [CONTRIBUTING.md](.github/CONTRIBUTING.md) guide before submitting a pull request.
 
-For bug reports or feature requests, please [create an issue](https://github.com/Ralex91/Razzia/issues).
+For bug reports or feature requests, please [create an issue](https://github.com/Ralex91/OpenSouthQuiz/issues).
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Ralex91/Razzia&type=date&legend=bottom-right)](https://www.star-history.com/#Ralex91/Razzia&type=date&legend=bottom-right)
+[![Star History Chart](https://api.star-history.com/svg?repos=Ralex91/OpenSouthQuiz&type=date&legend=bottom-right)](https://www.star-history.com/#Ralex91/OpenSouthQuiz&type=date&legend=bottom-right)
