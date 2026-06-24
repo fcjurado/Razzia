@@ -25,7 +25,9 @@ RUN apk add --no-cache nginx nodejs supervisor
 COPY docker/nginx.conf /etc/nginx/http.d/default.conf
 COPY docker/supervisord.conf /etc/supervisord.conf
 
-COPY config /app/config
+# Copia inicial de configuración al disco persistente (montado en /app/data en runtime).
+# En runtime, el disco persistente contendrá también los resultados generados.
+COPY config /app/data
 
 COPY --from=builder /app/packages/web/dist /app/web
 COPY --from=builder /app/packages/socket/dist/index.cjs /app/socket/index.cjs
