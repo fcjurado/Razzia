@@ -24,14 +24,17 @@ RUN apk add --no-cache nginx nodejs supervisor
 
 COPY docker/nginx.conf /etc/nginx/http.d/default.conf
 COPY docker/supervisord.conf /etc/supervisord.conf
+COPY docker/entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
 
-# Copia inicial de configuración al disco persistente (montado en /app/data en runtime).
-# En runtime, el disco persistente contendrá también los resultados generados.
-COPY config /app/data
+# Config seed: copied to /app/config-seed in the image.
+# At runtime the entrypoint copies it to the persistent disk (CONFIG_PATH)
+# only if the disk is empty (first boot).
+COPY config /app/config-seed
 
 COPY --from=builder /app/packages/web/dist /app/web
 COPY --from=builder /app/packages/socket/dist/index.cjs /app/socket/index.cjs
 
 EXPOSE 3000
 
-CMD ["supervisord", "-c", "/etc/supervisord.conf"]
+CMD ["/app/entrypoint.sh"]
