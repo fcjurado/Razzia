@@ -5,7 +5,7 @@
       "question": "En el taller 'Detective digital' de YesWeTech, ¿qué técnica de cifrado desplaza las letras un número fijo de posiciones?",
       "answers": [
         "Lenguaje binario",
-        "Esteganografía",
+        "Ensalada César",
         "Código Morse",
         "Cifrado César"
       ],
@@ -64,7 +64,7 @@
     {
       "question": "En 'Aprende Git', ¿qué es un 'fork' de un repositorio?",
       "answers": [
-        "Un tipo de archivo",
+        "Un tenedor para comer código",
         "Un comando para borrar archivos",
         "Una copia de un repositorio en tu cuenta de GitHub",
         "Un error en el código"

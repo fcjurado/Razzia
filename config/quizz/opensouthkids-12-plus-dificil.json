@@ -6,8 +6,8 @@
       "answers": [
         "Un sistema para guardar y consultar datos organizados",
         "Un altavoz inalámbrico",
-        "Un cable USB",
-        "Una pantalla rota"
+        "Un cable USB elástico",
+        "Una libreta"
       ],
       "solutions": [
         0
@@ -19,7 +19,7 @@
     {
       "question": "¿Qué es una vulnerabilidad de seguridad?",
       "answers": [
-        "Una app de dibujo",
+        "Un dibujo de un bicho",
         "Un nombre de usuario",
         "Una copia de seguridad",
         "Un fallo que puede permitir un ataque"
@@ -37,7 +37,7 @@
         "Diseña iconos",
         "Cambia contraseñas",
         "Empaqueta apps con lo necesario para ejecutarlas",
-        "Aumenta el brillo"
+        "Acumula contenedores en un barco"
       ],
       "solutions": [
         2
@@ -52,7 +52,7 @@
         "Un archivo de música",
         "Una clave que se puede compartir para cifrar o verificar",
         "La contraseña del Wi-Fi",
-        "Un tipo de ratón"
+        "Un tipo de papiro"
       ],
       "solutions": [
         1
@@ -65,7 +65,7 @@
       "question": "¿Qué es un modelo de inteligencia artificial?",
       "answers": [
         "Una maqueta de plástico",
-        "Una pantalla táctil",
+        "Un robot que hace modelismo de coches",
         "Una licencia de código",
         "Un sistema entrenado con datos para realizar tareas"
       ],

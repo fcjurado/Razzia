@@ -6,8 +6,8 @@
       "answers": [
         "Dar instrucciones a una máquina",
         "Hacer magia",
-        "Pintar una pared",
-        "Cerrar una ventana"
+        "Teclear muy rápido",
+        "Cerrar una ventana con el teclado"
       ],
       "solutions": [
         0
@@ -34,7 +34,7 @@
     {
       "question": "¿Qué es un archivo?",
       "answers": [
-        "Una bombilla",
+        "Un cajón",
         "Una rueda",
         "Un lápiz roto",
         "Información guardada con un nombre"
@@ -47,12 +47,12 @@
       "explanation": "Un archivo guarda información: texto, fotos, vídeos o dibujos."
     },
     {
-      "question": "¿Qué debemos hacer antes de instalar una app desconocida?",
+      "question": "¿Qué debemos hacer antes de instalar una aplicación en el móvil o el ordenador desconocida?",
       "answers": [
         "Instalarla corriendo",
         "Preguntar a una persona adulta",
         "Dar todas las contraseñas",
-        "Apagar la casa"
+        "Apagar la casa y salir corriendo"
       ],
       "solutions": [
         1
@@ -64,7 +64,7 @@
     {
       "question": "¿Qué significa Wi-Fi?",
       "answers": [
-        "Un dibujo animado",
+        "Un manga",
         "Un cable muy largo",
         "Conexión inalámbrica a una red",
         "Una marca de zapatillas"

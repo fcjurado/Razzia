@@ -4,10 +4,10 @@
     {
       "question": "¿Qué es una petición HTTP?",
       "answers": [
-        "Una pieza de Lego",
+        "Hoy Toco Teclado Programando",
         "Un mensaje del navegador a un servidor",
-        "Una contraseña",
-        "Un disco duro"
+        "Hola, Te Traje Patatas",
+        "Hoy Te Traigo Páginas"
       ],
       "solutions": [
         1
@@ -20,9 +20,9 @@
       "question": "¿Qué es JSON?",
       "answers": [
         "Un editor de vídeo",
-        "Un tipo de pantalla",
+        "Jamón Siempre Oculta Nachos",
         "Un formato de texto para intercambiar datos",
-        "Un robot humanoide"
+        "Jugar Sin Orden Noobs"
       ],
       "solutions": [
         2
@@ -34,9 +34,9 @@
     {
       "question": "¿Qué significa autenticarse?",
       "answers": [
-        "Copiar un archivo",
-        "Reiniciar un router",
-        "Diseñar un logo",
+        "Saludar a un amigo",
+        "Saludar al router",
+        "Tocar una puerta",
         "Demostrar quién eres para entrar"
       ],
       "solutions": [
@@ -64,10 +64,10 @@
     {
       "question": "¿Qué es una dirección IP?",
       "answers": [
-        "Una imagen PNG",
+        "Invitar a Pizzas",
         "Una licencia de software",
         "Un identificador de un dispositivo en una red",
-        "Una tecla de función"
+        "Una dirección de casa"
       ],
       "solutions": [
         2

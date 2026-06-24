@@ -4,8 +4,8 @@
     {
       "question": "¿Qué es la programación orientada a objetos (POO)?",
       "answers": [
-        "Un tipo de lápiz virtual",
-        "Una manera de dibujar en pantalla",
+        "Profesionales Organizan Objetos",
+        "Una manera de dibujar objetos en pantalla",
         "Un protocolo de red",
         "Una forma de organizar el código usando objetos que tienen propiedades y comportamientos"
       ],
@@ -22,7 +22,7 @@
         "Que es un programa que siempre cuesta dinero",
         "Que el código fuente es accesible para ser estudiado, modificado y distribuido",
         "Que solo se puede usar en la escuela",
-        "Que es más lento"
+        "Que es más rápido"
       ],
       "solutions": [
         1
@@ -32,12 +32,12 @@
       "explanation": "El software 'open source' permite a cualquier persona ver y colaborar en el código, fomentando aprendizaje y mejoras compartidas."
     },
     {
-      "question": "¿Qué es la latencia en redes?",
+      "question": "¿Qué es la latencia (ping) en redes?",
       "answers": [
-        "Una forma de almacenar archivos",
-        "Un programa para dibujar",
+        "Una forma de almacenar pelotas de ping pong",
+        "Un programa para jugar al ping pong",
         "El retraso en la transmisión de datos entre un punto y otro",
-        "Un tipo de batería"
+        "Un tipo de pelota pequeña"
       ],
       "solutions": [
         2
@@ -49,10 +49,10 @@
     {
       "question": "¿Qué significa versionar código con Git?",
       "answers": [
-        "Cambiar el color del editor",
+        "Cambiar el nombre del fichero cada vez que se guarda",
         "Guardar el historial de cambios para poder colaborar y volver atrás",
-        "Comprimir imágenes",
-        "Apagar el servidor"
+        "Comprimir ficheros",
+        "Acordarse de lo que hiciste hace una semana"
       ],
       "solutions": [
         1
@@ -65,9 +65,9 @@
       "question": "¿Qué es una API?",
       "answers": [
         "Una contraseña temporal",
-        "Un tipo de pantalla",
+        "Alguien Pide Información",
         "Un conjunto de reglas para que programas se comuniquen",
-        "Un cable HDMI"
+        "Aplicaciones Parlotean Inteligentemente"
       ],
       "solutions": [
         2

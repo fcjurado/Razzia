@@ -4,8 +4,8 @@
     {
       "question": "¿Qué es un navegador web?",
       "answers": [
-        "Una carpeta secreta",
-        "Un tipo de batería",
+        "Un barco que navega por una tela de araña",
+        "Un tipo de araña",
         "Un programa para visitar páginas web",
         "Un cable submarino"
       ],
@@ -21,8 +21,8 @@
       "answers": [
         "Agua dentro del móvil",
         "Servicios y datos en servidores de internet",
-        "Un fondo de pantalla",
-        "Un tipo de teclado"
+        "Una nube de algodón",
+        "El humo de un petardo robotizado"
       ],
       "solutions": [
         1
@@ -34,9 +34,9 @@
     {
       "question": "¿Qué es una licencia de software?",
       "answers": [
-        "Un cable de audio",
+        "Un papel con muchas letras",
         "Las reglas para usar y compartir un programa",
-        "Una pegatina del portátil",
+        "Una pegatina chula del portátil",
         "Una contraseña corta"
       ],
       "solutions": [
@@ -50,9 +50,9 @@
       "question": "¿Qué es un dato personal?",
       "answers": [
         "Una suma matemática",
-        "Un icono de carpeta",
+        "Tu gorra favorita",
         "Información que puede identificar a una persona",
-        "Un color cualquiera"
+        "El color de un avión de papel"
       ],
       "solutions": [
         2
@@ -66,7 +66,7 @@
       "answers": [
         "Cambiar el móvil de sitio",
         "Borrar internet",
-        "Subir el volumen",
+        "Lanzar el móvil al espacio",
         "Instalar una versión más nueva"
       ],
       "solutions": [

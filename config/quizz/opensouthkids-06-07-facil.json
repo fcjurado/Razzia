@@ -5,9 +5,9 @@
       "question": "¿Qué usamos para mover la flecha en la pantalla?",
       "answers": [
         "Ratón",
-        "Lámpara",
-        "Tostadora",
-        "Mochila"
+        "La mente",
+        "Un dedo",
+        "Un bolígrafo"
       ],
       "solutions": [
         0
@@ -19,9 +19,9 @@
     {
       "question": "¿Cuál de estos objetos sirve para escribir en un ordenador?",
       "answers": [
-        "Cepillo",
-        "Plato",
-        "Zapato",
+        "Bolígrafo",
+        "Lápiz",
+        "Nariz",
         "Teclado"
       ],
       "solutions": [
@@ -35,9 +35,9 @@
       "question": "¿Qué necesita un robot para saber qué hacer?",
       "answers": [
         "Caramelos",
-        "Sueño",
+        "Dormir",
         "Instrucciones",
-        "Zapatos"
+        "Que le chillen"
       ],
       "solutions": [
         2
@@ -49,10 +49,10 @@
     {
       "question": "¿Qué icono suele servir para borrar algo?",
       "answers": [
-        "Pelota",
-        "Papelera",
-        "Corazón",
-        "Sol"
+        "Una Pelota",
+        "Una Papelera",
+        "Un trapo",
+        "El Sol"
       ],
       "solutions": [
         1
@@ -64,8 +64,8 @@
     {
       "question": "¿Qué hacemos cuando pulsamos el botón de encendido?",
       "answers": [
-        "Pintar la pantalla",
-        "Llamar a una nube",
+        "Pintar el botón",
+        "Llamar al timbre",
         "Romper internet",
         "Encender el dispositivo"
       ],

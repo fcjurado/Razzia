@@ -22,7 +22,7 @@
         "Borrarlo para siempre",
         "Dejarlo guardado para verlo después",
         "Hacerlo más pesado",
-        "Apagar la luz"
+        "Pegar un folio en la pantalla"
       ],
       "solutions": [
         1
@@ -34,10 +34,10 @@
     {
       "question": "¿Qué parte de un ordenador muestra imágenes?",
       "answers": [
-        "Mesa",
+        "Ratón",
         "Monitor",
-        "Silla",
-        "Cable de agua"
+        "Teclado",
+        "Enchufe"
       ],
       "solutions": [
         1
@@ -49,8 +49,8 @@
     {
       "question": "¿Qué es internet?",
       "answers": [
-        "Una libreta",
-        "Un botón rojo",
+        "Una libreta grande",
+        "Una caja negra con un botón rojo",
         "Una red que conecta muchos dispositivos",
         "Un tipo de helado"
       ],

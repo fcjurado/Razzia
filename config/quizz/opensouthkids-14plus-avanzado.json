@@ -7,7 +7,7 @@
         "Un tipo de ordenador",
         "Un virus informático",
         "Una receta o conjunto de pasos para resolver un problema",
-        "Un cable especial"
+        "Algo con ritmo"
       ],
       "solutions": [
         2
@@ -17,7 +17,7 @@
       "explanation": "Un algoritmo es una serie de pasos ordenados para resolver una tarea, como una receta de cocina aplicada a la programación."
     },
     {
-      "question": "¿Cuál es la diferencia principal entre 'datos' y 'información'?",
+      "question": "¿Cuál es la diferencia principal entre 'datos' e 'información'?",
       "answers": [
         "No hay diferencia",
         "Los datos son hechos sin procesar; la información es el resultado interpretado",
@@ -36,8 +36,8 @@
       "answers": [
         "La ciencia de cocinar en la nube",
         "El conjunto de medidas para proteger sistemas y datos",
-        "Un juego online",
-        "Un tipo de teléfono"
+        "Un juego online sobre hackers",
+        "Un tipo de puerta con cerradura digital"
       ],
       "solutions": [
         1
@@ -47,12 +47,12 @@
       "explanation": "La ciberseguridad busca proteger la confidencialidad, integridad y disponibilidad de la información y los sistemas."
     },
     {
-      "question": "¿Para qué sirve una condición 'si... entonces' en programación?",
+      "question": "¿Para qué sirve una condición 'si... entonces' (if-then) en programación?",
       "answers": [
         "Para decorar el código",
         "Para borrar variables automáticamente",
         "Para tomar decisiones según se cumpla una regla",
-        "Para conectar un teclado"
+        "Para conectar un altavoz bluethooth"
       ],
       "solutions": [
         2
@@ -66,7 +66,7 @@
       "answers": [
         "Un error del sistema",
         "Un cable de red",
-        "Un dibujo fijo",
+        "Un dibujo que cambia de color",
         "Un espacio con nombre para guardar un valor"
       ],
       "solutions": [

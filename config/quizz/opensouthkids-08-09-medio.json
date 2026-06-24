@@ -7,7 +7,7 @@
         "Ordena pasos para resolver un problema",
         "Esconde el teclado",
         "Carga una batería",
-        "Dibuja solo círculos"
+        "Algo con ritmo"
       ],
       "solutions": [
         0
@@ -19,9 +19,9 @@
     {
       "question": "¿Qué es un error o bug en un programa?",
       "answers": [
-        "Una pegatina",
+        "Una pegatina de un bicho",
         "Una contraseña fuerte",
-        "Un tipo de monitor",
+        "Un tipo de bicho",
         "Algo que hace que no funcione como esperábamos"
       ],
       "solutions": [
@@ -51,7 +51,7 @@
       "answers": [
         "El nombre de un planeta",
         "Nuestra dirección de casa",
-        "Nuestro color favorito",
+        "Mis notas del cole",
         "Una adivinanza"
       ],
       "solutions": [

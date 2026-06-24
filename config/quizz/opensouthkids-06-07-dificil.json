@@ -5,7 +5,7 @@
       "question": "¿Qué es un programa?",
       "answers": [
         "Una lista de instrucciones para un ordenador",
-        "Una mesa pequeña",
+        "Algo que sale en la tele",
         "Una merienda",
         "Un cable"
       ],
@@ -19,10 +19,10 @@
     {
       "question": "¿Qué hace un sensor de luz?",
       "answers": [
-        "Imprime hojas",
-        "Carga una mochila",
+        "Imprime luces de colores",
+        "Ilumina una mochila",
         "Detecta si hay mucha o poca luz",
-        "Cuenta chistes"
+        "Cuenta chistes sobre luces"
       ],
       "solutions": [
         2
@@ -34,7 +34,7 @@
     {
       "question": "¿Qué significa repetir una instrucción muchas veces?",
       "answers": [
-        "Hacer un bocadillo",
+        "Ser pesado o pesada",
         "Apagar internet",
         "Cambiar de silla",
         "Hacer un bucle"
@@ -49,10 +49,10 @@
     {
       "question": "¿Qué es una contraseña?",
       "answers": [
-        "Un dibujo de colores",
+        "Una frase de colores",
         "Una palabra secreta para entrar",
-        "Un altavoz",
-        "Un botón de volumen"
+        "Un altavoz secreto",
+        "Un botón de volumen del altavoz secreto"
       ],
       "solutions": [
         1
@@ -67,7 +67,7 @@
         "Siempre borra todo",
         "Se convierte en comida",
         "Lanza una acción al pulsarlo",
-        "Siempre canta"
+        "Siempre chilla fuerte"
       ],
       "solutions": [
         2

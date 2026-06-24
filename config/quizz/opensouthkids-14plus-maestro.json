@@ -6,8 +6,8 @@
       "answers": [
         "Una nueva consola de videojuegos",
         "Un conjunto de técnicas que permiten a las máquinas aprender de datos",
-        "Una forma de pintar con el ratón",
-        "Un tipo de cable"
+        "Una forma de pintar de un robot",
+        "Dar clases particulares a un ordenador"
       ],
       "solutions": [
         1
@@ -21,7 +21,7 @@
       "answers": [
         "Una aplicación para editar fotos",
         "El estudio de principios morales aplicados al uso de la tecnología y los datos",
-        "Un tipo de contraseña",
+        "Un tipo de libro de ética",
         "Un protocolo de vídeo"
       ],
       "solutions": [
@@ -35,7 +35,7 @@
       "question": "¿Por qué es importante verificar fuentes en internet?",
       "answers": [
         "Porque internet borra las páginas cada hora",
-        "Porque así cargan más rápido las imágenes",
+        "Para beber más agua mientras navegas",
         "Para asegurarnos de que la información es veraz y evitar desinformación",
         "Porque es obligatorio"
       ],
@@ -49,7 +49,7 @@
     {
       "question": "¿Qué es un sesgo en un algoritmo de inteligencia artificial?",
       "answers": [
-        "Un modo de aumentar el volumen",
+        "Un modo de aumentar el volumen (algo con ritmo)",
         "Una tecla especial",
         "Una tendencia del sistema a favorecer ciertos resultados por los datos o el diseño",
         "Un formato de imagen"
@@ -66,7 +66,7 @@
       "answers": [
         "Ocultar todos los botones",
         "Usar solo pantallas oscuras",
-        "Publicar todos los datos",
+        "Tapar la pantalla para que no te vean",
         "Pensar en proteger los datos desde el inicio de un producto"
       ],
       "solutions": [

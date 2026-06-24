@@ -36,7 +36,7 @@
       "answers": [
         "Un antivirus",
         "Una pantalla extra",
-        "Una tecla especial",
+        "Una tecla para evolucionar un Pokémon",
         "Una forma para que programas se comuniquen"
       ],
       "solutions": [
@@ -49,10 +49,10 @@
     {
       "question": "¿Qué es el phishing?",
       "answers": [
-        "Un lenguaje de programación",
+        "Un lenguaje de programación para peces",
         "Un engaño para robar datos o contraseñas",
-        "Una impresora 3D",
-        "Un tipo de pantalla"
+        "Ir a pescar con un ordenador",
+        "Un tipo de pantalla para ver peces"
       ],
       "solutions": [
         1
@@ -64,10 +64,10 @@
     {
       "question": "¿Qué es un sensor de ultrasonidos en robótica?",
       "answers": [
-        "Una batería",
-        "Un programa de dibujo",
+        "Una batería con patas",
+        "Un programa de dibujo en 3D",
         "Un sensor para medir distancia",
-        "Un motor de ruedas"
+        "Un motor de ruedas ultrasónicas"
       ],
       "solutions": [
         2

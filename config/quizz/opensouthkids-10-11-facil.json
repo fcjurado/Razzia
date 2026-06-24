@@ -7,7 +7,7 @@
         "JavaScript",
         "PiedraScript",
         "Cable++",
-        "TortillaLang"
+        "PeritaLang"
       ],
       "solutions": [
         0
@@ -22,7 +22,7 @@
         "Crea contraseñas",
         "Mueve el ratón",
         "Define la estructura del contenido",
-        "Enfría el ordenador"
+        "Enfría el ordenador con hielo"
       ],
       "solutions": [
         2
@@ -35,7 +35,7 @@
       "question": "¿Qué hace CSS en una página web?",
       "answers": [
         "Guarda fotos en la nube",
-        "Instala impresoras",
+        "Te pide estar en silencio",
         "Aumenta la batería",
         "Da estilo: colores, tamaños y posiciones"
       ],
@@ -44,14 +44,14 @@
       ],
       "cooldown": 10,
       "time": 10,
-      "explanation": "CSS controla cómo se ve una web: colores, fuentes, espacios y diseño."
+      "explanation": "CSS (Cascading Style Sheets) controla cómo se ve una web: colores, fuentes, espacios y diseño."
     },
     {
       "question": "¿Qué es una URL?",
       "answers": [
-        "Una carpeta vacía",
+        "Una matrícula de coche",
         "La dirección de una página o recurso en internet",
-        "Un tipo de teclado",
+        "Un tipo de Digimon",
         "Una contraseña"
       ],
       "solutions": [
