@@ -325,6 +325,33 @@ export const getRankingStats = (): RankingStats => {
   return { totalGames, totalPlayerEntries, global, byQuiz }
 }
 
+export const getAllResults = (): GameResult[] => {
+  const resultsPath = getPath("results")
+
+  if (!fs.existsSync(resultsPath)) {
+    return []
+  }
+
+  try {
+    return fs
+      .readdirSync(resultsPath)
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => {
+        try {
+          return JSON.parse(
+            fs.readFileSync(getPath(`results/${file}`), "utf-8"),
+          ) as GameResult
+        } catch {
+          return null
+        }
+      })
+      .filter((r): r is GameResult => r !== null)
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  } catch {
+    return []
+  }
+}
+
 export const deleteResult = (id: string): void => {
   const filePath = getPath(`results/${id}.json`)
 

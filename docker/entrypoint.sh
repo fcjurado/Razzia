@@ -6,6 +6,7 @@ DATA_DIR="${CONFIG_PATH:-/app/data}"
 
 echo "Syncing config seed from $SEED_DIR to $DATA_DIR ..."
 mkdir -p "$DATA_DIR/quizz"
+mkdir -p "$DATA_DIR/results"
 
 # Always overwrite quizzes (they come from the repo).
 cp -r "$SEED_DIR/quizz/." "$DATA_DIR/quizz/"

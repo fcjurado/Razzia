@@ -2,6 +2,7 @@ import { EVENTS } from "@razzia/common/constants"
 import type { SocketContext } from "@razzia/socket/handlers/types"
 import {
     deleteResult,
+    getAllResults,
     getRankingStats,
     getResultById,
 } from "@razzia/socket/services/config"
@@ -38,6 +39,18 @@ export const resultsSocketHandlers = ({ socket }: SocketContext) => {
         socket.emit(EVENTS.RESULTS.STATS, getRankingStats())
       } catch (error) {
         console.error("Failed to get ranking stats:", error)
+      }
+    }),
+  )
+
+  socket.on(
+    "results:export",
+    manager.withAuth(socket, () => {
+      try {
+        const results = getAllResults()
+        socket.emit("results:exportData", results)
+      } catch (error) {
+        console.error("Failed to export results:", error)
       }
     }),
   )

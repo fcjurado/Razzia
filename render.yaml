@@ -12,6 +12,10 @@ services:
     name: razzia-quiz
     runtime: docker
     dockerfilePath: ./Dockerfile
-    plan: free
+    plan: starter                  # Necesario para discos persistentes
     region: frankfurt              # La región free más cercana a España
     autoDeploy: true
+    disk:
+      name: razzia-data
+      mountPath: /app/data
+      sizeGB: 1
