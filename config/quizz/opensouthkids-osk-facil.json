@@ -75,6 +75,21 @@
       "cooldown": 15,
       "time": 20,
       "explanation": "La web myoctocat.com permite diseñar tu propio Octogato, el personaje gato-pulpo de GitHub."
+    },
+    {
+      "question": "¿Cuántos LED tiene la plaquita microbit?",
+      "answers": [
+        "6",
+        "12",
+        "25",
+        "9999"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 15,
+      "time": 20,
+      "explanation": "Tiene 5 filas y 5 columnas."
     }
   ]
 }

@@ -75,6 +75,36 @@
       "cooldown": 15,
       "time": 15,
       "explanation": "TinkerCAD es una aplicación web para diseñar modelos 3D que luego se pueden imprimir en una impresora 3D."
+    },
+    {
+      "question": "¿Puedes convertir la plaquita microbit en un coche teledirigido?",
+      "answers": [
+        "No, para nada",
+        "No, pero en un cohete sí",
+        "Sí, pero lo tienes que empujar tú",
+        "Sí, con el micro:Maqueen"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 15,
+      "time": 20,
+      "explanation": "Necesitas el accesorio maqueen que viene con ruedas y pilas."
+    },
+    {
+      "question": "¿Cuántas luces LED se pueden encender al mismo tiempo?",
+      "answers": [
+        "Sólo una",
+        "Una fila completa",
+        "5 como máximo",
+        "Todas"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 15,
+      "time": 20,
+      "explanation": "Todos los LEDs pueden estar encendidos o apagados de forma individual."
     }
   ]
 }

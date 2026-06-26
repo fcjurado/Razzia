@@ -75,6 +75,21 @@
       "cooldown": 10,
       "time": 25,
       "explanation": "Las actividades desenchufadas enseñan a descomponer problemas en partes más pequeñas y a encontrar patrones, conceptos fundamentales del pensamiento computacional."
+    },
+    {
+      "question": "¿Qué lenguajes de programación puedes usar para programar la plaquita microbit?",
+      "answers": [
+        "Bloques",
+        "Bloques y Javascript",
+        "Bloques y Python",
+        "Bloques, Javascript y Python"
+      ],
+      "solutions": [
+        3
+      ],
+      "cooldown": 15,
+      "time": 20,
+      "explanation": "Puedes intercambiar el lenguaje."
     }
   ]
 }

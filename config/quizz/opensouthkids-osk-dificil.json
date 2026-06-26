@@ -75,6 +75,21 @@
       "cooldown": 10,
       "time": 15,
       "explanation": "Ada Kraft y Cine Zangemann se basan en el libro de la FSFE sobre Ada Lovelace, pionera de la programación informática."
+    },
+    {
+      "question": "¿Cuántos botones tiene la plaquita microbit?",
+      "answers": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "solutions": [
+        2
+      ],
+      "cooldown": 15,
+      "time": 20,
+      "explanation": "Uno a la izquierda, otro a la derecha y otro detrás."
     }
   ]
 }
